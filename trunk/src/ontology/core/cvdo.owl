@@ -1,0 +1,4632 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY fma "http://purl.obolibrary.org/obo/fma#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
+]>
+
+
+<rdf:RDF xmlns="&obo;CVDO#"
+     xml:base="&obo;CVDO"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:fma="&obo;fma#">
+    <owl:Ontology rdf:about="&obo;cvdo">
+        <owl:imports rdf:resource="&obo;bfo.owl"/>
+        <owl:imports rdf:resource="&obo;cvdo/external/doid_import.owl"/>
+        <owl:imports rdf:resource="&obo;cvdo/external/fma_import.owl"/>
+        <owl:imports rdf:resource="&obo;cvdo/external/ogms_import.owl"/>
+        <owl:imports rdf:resource="&obo;cvdo/external/ro_import.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="&obo;CVDO_0000174">
+        <rdfs:label xml:lang="en">definition old</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000232 -->
+
+    <owl:ObjectProperty rdf:about="&obo;CVDO_0000232">
+        <rdfs:label xml:lang="en">begins to exist during</rdfs:label>
+        <obo:IAO_0000116>introduced as discussed in:
+http://code.google.com/p/bfo/issues/detail?id=50</obo:IAO_0000116>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000283 -->
+
+    <owl:ObjectProperty rdf:about="&obo;CVDO_0000283">
+        <rdfs:label xml:lang="en">has etiological process</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000010 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000010">
+        <rdfs:label xml:lang="en">bacterial endocarditis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_0060000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000011 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000011">
+        <rdfs:label xml:lang="en">viral endocarditis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_0060000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000012 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000012">
+        <rdfs:label xml:lang="en">fungal endocarditis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_0060000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000015 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000015">
+        <rdfs:label xml:lang="en">heart disorder</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OGMS_0000045"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_7088"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000016 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000016">
+        <rdfs:label xml:lang="en">vascular disorder</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OGMS_0000045"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_3710"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000020 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000020">
+        <rdfs:label xml:lang="en">endocardium disorder</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000015"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_7280"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000022 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000022">
+        <rdfs:label xml:lang="en">inflammated endocardium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000263"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                <owl:someValuesFrom rdf:resource="&obo;FMA_7280"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000023 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000023">
+        <rdfs:label xml:lang="en">pericardium disorder</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OGMS_0000045"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_9869"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000116>Since pericardium is not a part of heart according to FMA, pericardium disorder is not considered as a heart disorder.</obo:IAO_0000116>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000024 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000024">
+        <rdfs:label xml:lang="en">inflammated pericardium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000263"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                <owl:someValuesFrom rdf:resource="&obo;FMA_9869"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000033 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000033">
+        <rdfs:label xml:lang="en">infectious pericarditis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_1787"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000034 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000034">
+        <rdfs:label xml:lang="en">bacterial pericarditis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000033"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000035 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000035">
+        <rdfs:label xml:lang="en">viral pericarditis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000033"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000036 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000036">
+        <rdfs:label xml:lang="en">fungal pericarditis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000033"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000037 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000037">
+        <rdfs:label xml:lang="en">protozoal pericarditis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000033"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000039 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000039">
+        <rdfs:label xml:lang="en">heart pathological process</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OGMS_0000061"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_7088"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000061"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000040 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000040">
+        <rdfs:label xml:lang="en">pericardium pathological process</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OGMS_0000061"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_9869"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000061"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000041 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000041">
+        <rdfs:label xml:lang="en">acute pericarditis</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_1787"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom rdf:resource="&obo;OGMS_0000094"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000042 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000042">
+        <rdfs:label xml:lang="en">chronic pericarditis</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_1787"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom rdf:resource="&obo;OGMS_0000064"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000043 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000043">
+        <rdfs:label xml:lang="en">atrioventricular block</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000312"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000044 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000044">
+        <rdfs:label xml:lang="en">first degree atrioventricular block</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000317"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000045 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000045">
+        <rdfs:label xml:lang="en">Mobitz I second degree atrioventricular block</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000315"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000046 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000046">
+        <rdfs:label xml:lang="en">third degree atrioventricular block</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000318"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>complete heart block</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000047 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000047">
+        <rdfs:label xml:lang="en">conduction disorder</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000015"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_83378"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000048 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000048">
+        <rdfs:label xml:lang="en">impaired atrioventricular node</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000047"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000050 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000050">
+        <rdfs:label xml:lang="en">impaired left branch of atrioventricular bundle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000047"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000051 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000051">
+        <rdfs:label xml:lang="en">impaired right branch of atrioventricular bundle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000047"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000052 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000052">
+        <rdfs:label xml:lang="en">bundle of Kent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000015"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000053 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000053">
+        <rdfs:label xml:lang="en">impaired atrioventricular bundle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000047"/>
+        <oboInOwl:hasExactSynonym>bundle of His impaired</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000059 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000059">
+        <rdfs:label xml:lang="en">conduction pathological process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000039"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000061 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000061">
+        <rdfs:label xml:lang="en">sinoatrial block</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000314"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000062 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000062">
+        <rdfs:label xml:lang="en">Mobitz I second degree sinoatrial block</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000323"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>Wenckebach block</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000063 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000063">
+        <rdfs:label xml:lang="en">Mobitz II second degree sinoatrial block</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000061"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000324"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>sinus exit block</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000064 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000064">
+        <rdfs:label xml:lang="en">first degree sinoatrial block</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000325"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000065 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000065">
+        <rdfs:label xml:lang="en">third degree sinoatrial block</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000061"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000326"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000066 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000066">
+        <rdfs:label xml:lang="en">impaired sinoatrial node</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000047"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000072 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000072">
+        <rdfs:label xml:lang="en">heart block</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_10273"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000077 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000077">
+        <rdfs:label xml:lang="en">impaired posterior division of left branch of atrioventricular bundle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000047"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000177"/>
+                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000050"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000080 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000080">
+        <rdfs:label xml:lang="en">left posterior fascicular block</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000081"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000077"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000321"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000081 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000081">
+        <rdfs:label xml:lang="en">infra-hisian block</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000313"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000082 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000082">
+        <rdfs:label xml:lang="en">left bundle branch block</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000081"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000050"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000320"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000088 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000088">
+        <rdfs:label xml:lang="en">arrhythmia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_10273"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000091 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000091">
+        <rdfs:label xml:lang="en">atrial arrhythmia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000296"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="&obo;OGMS_0000061"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                                                <owl:someValuesFrom rdf:resource="&obo;FMA_7099"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000116>axiomatize</obo:IAO_0000116>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000092 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000092">
+        <rdfs:label xml:lang="en">atrial fibrillation disposition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000091"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000093"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000116>There are multiple theories about the etiology of atrial fibrillation.</obo:IAO_0000116>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000093 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000093">
+        <rdfs:label xml:lang="en">atrial fibrillation episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000310"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000094 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000094">
+        <rdfs:label xml:lang="en">atrial flutter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000091"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000306"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000096 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000096">
+        <rdfs:label xml:lang="en">atrial re-entry circuit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000281"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000097 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000097">
+        <rdfs:label xml:lang="en">common atrial flutter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000299"/>
+        <oboInOwl:hasExactSynonym>type I atrial flutter</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000099 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000099">
+        <rdfs:label xml:lang="en">clockwise type I atrial flutter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000097"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000100 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000100">
+        <rdfs:label xml:lang="en">counterclockwise type I atrial flutter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000097"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000110 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000110">
+        <rdfs:label xml:lang="en">cardiac atrium fibrosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000273"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000111 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000111">
+        <rdfs:label xml:lang="en">supraventricular tachycardia episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000310"/>
+        <obo:IAO_0000116>Corriger</obo:IAO_0000116>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000139 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000139">
+        <rdfs:label xml:lang="en">bradycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000088"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000140"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000140 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000140">
+        <rdfs:label xml:lang="en">bradycardia episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000310"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000143 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000143">
+        <rdfs:label xml:lang="en">premature atrial contraction disposition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000091"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000309"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000144 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000144">
+        <rdfs:label xml:lang="en">left anterior fascicle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;FMA_6266"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000148 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000148">
+        <rdfs:label xml:lang="en">heart valve disorder</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000015"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_7110"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000149 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000149">
+        <rdfs:label xml:lang="en">mitral valve disorder</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000148"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_7235"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000150 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000150">
+        <rdfs:label xml:lang="en">tricuspid valve disorder</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000148"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_7234"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000151 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000151">
+        <rdfs:label xml:lang="en">aortic valve disorder</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000148"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_7236"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000152 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000152">
+        <rdfs:label xml:lang="en">pulmonary valve disorder</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000148"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_7246"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000153 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000153">
+        <rdfs:label xml:lang="en">wandering pacemaker</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000091"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000154 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000154">
+        <rdfs:label xml:lang="en">tricuspid valve disease</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_4079"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000150"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000156 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000156">
+        <rdfs:label xml:lang="en">mitral valve leaflet with myxomatous proliferation</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000165"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_7235"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000157 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000157">
+        <rdfs:label xml:lang="en">tricuspid valve leaflet with myxomatous proliferation</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000165"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_7234"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000158 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000158">
+        <rdfs:label xml:lang="en">aortic valve leaflet with myxomatous proliferation</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000165"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_7236"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000159 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000159">
+        <rdfs:label xml:lang="en">heart valve pathological process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000039"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;FMA_7110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000160 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000160">
+        <rdfs:label xml:lang="en">mitral valve leaflet displacement into the left atrium during systole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000166"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000162 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000162">
+        <rdfs:label xml:lang="en">tricuspid valve leaflet displacement into the right atrium during systole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000171"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000163 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000163">
+        <rdfs:label xml:lang="en">aortic valve leaflet displacement into the left ventricle during systole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000172"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000164 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000164">
+        <rdfs:label xml:lang="en">valve leaflet displacement during systole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000210"/>
+        <obo:IAO_0000116>keep this entity?</obo:IAO_0000116>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;CVDO_0000160"/>
+            <rdf:Description rdf:about="&obo;CVDO_0000162"/>
+            <rdf:Description rdf:about="&obo;CVDO_0000163"/>
+            <rdf:Description rdf:about="&obo;CVDO_0000277"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000165 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000165">
+        <rdfs:label xml:lang="en">heart valve leaflet with myxomatous proliferation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000148"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000166 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000166">
+        <rdfs:label xml:lang="en">mitral valve improper close during systole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000210"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000167"/>
+                <owl:someValuesFrom rdf:resource="&obo;FMA_7235"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000168 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000168">
+        <rdfs:label xml:lang="en">retrograd blood flow through the mitral valve during systole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000182"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000169 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000169">
+        <rdfs:label xml:lang="en">retrograd blood flow through the pulmonary valve during systole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000182"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000170 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000170">
+        <rdfs:label xml:lang="en">pulmonary valve improper close during systole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000210"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000167"/>
+                <owl:someValuesFrom rdf:resource="&obo;FMA_7246"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000171 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000171">
+        <rdfs:label xml:lang="en">tricuspid valve improper close during systole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000210"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000167"/>
+                <owl:someValuesFrom rdf:resource="&obo;FMA_7234"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000172 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000172">
+        <rdfs:label xml:lang="en">aortic valve improper close during systole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000210"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000167"/>
+                <owl:someValuesFrom rdf:resource="&obo;FMA_7236"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000173 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000173">
+        <rdfs:label xml:lang="en">retrograd blood flow through the tricuspid valve during systole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000182"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000175 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000175">
+        <rdfs:label xml:lang="en">retrograd blood flow through the aortic valve during systole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000182"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000176 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000176">
+        <rdfs:label xml:lang="en">narrowed heart valve opening</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000148"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000177 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000177">
+        <rdfs:label xml:lang="en">narrowed aortic valve opening</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000176"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_7236"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000178 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000178">
+        <rdfs:label xml:lang="en">narrowed mitral valve opening</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000176"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_7235"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000179 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000179">
+        <rdfs:label xml:lang="en">narrowed tricuspid valve opening</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000176"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_7234"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000180 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000180">
+        <rdfs:label xml:lang="en">narrowed pulmonary valve opening</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000176"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_7246"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000181 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000181">
+        <rdfs:label xml:lang="en">disturbed anterograd blood flow through mitral valve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000183"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000182 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000182">
+        <rdfs:label xml:lang="en">retrograd blood flow through a heart valve during systole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000279"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000183 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000183">
+        <rdfs:label xml:lang="en">disturbed blood flow in a cardiac chamber</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000279"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000184 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000184">
+        <rdfs:label xml:lang="en">disturbed anterograd blood flow through tricuspid valve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000183"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000186 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000186">
+        <rdfs:label xml:lang="en">disturbed anterograd blood flow through pulmonary valve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000188"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000187 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000187">
+        <rdfs:label xml:lang="en">disturbed anterograd blood flow through aortic valve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000188"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000188 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000188">
+        <rdfs:label xml:lang="en">disturbed blood flow in an artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000280"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000189 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000189">
+        <rdfs:label xml:lang="en">heart valve stenosis</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_4079"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000176"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000191 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000191">
+        <rdfs:label xml:lang="en">impaired cardiac output</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000279"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000193 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000193">
+        <rdfs:label xml:lang="en">pressure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000194 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000194">
+        <rdfs:label xml:lang="en">blood pressure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000193"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000196 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000196">
+        <rdfs:label xml:lang="en">highly pressured arterial blood flow</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000280"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000209 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000209">
+        <rdfs:label xml:lang="en">heart valve insufficiency</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_4079"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000210"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000148"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000210 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000210">
+        <rdfs:label xml:lang="en">heart valve improper close during systole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000159"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000211 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000211">
+        <rdfs:label xml:lang="en">inflammated blood vessel</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000263"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                <owl:someValuesFrom rdf:resource="&obo;FMA_3710"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000212 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000212">
+        <rdfs:label xml:lang="en">inflammated aorta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000211"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                <owl:someValuesFrom rdf:resource="&obo;FMA_3734"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000213 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000213">
+        <rdfs:label xml:lang="en">inflammated vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000263"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                <owl:someValuesFrom rdf:resource="&obo;FMA_50723"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000214 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000214">
+        <rdfs:label xml:lang="en">vein disorder</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000016"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_14284"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000215 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000215">
+        <rdfs:label xml:lang="en">inflammated retinal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000211"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                <owl:someValuesFrom rdf:resource="&obo;FMA_49879"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000216 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000216">
+        <rdfs:label xml:lang="en">vascular pathological process</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OGMS_0000061"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_3710"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000061"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000217 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000217">
+        <rdfs:label xml:lang="en">thrombosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000216"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000218 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000218">
+        <rdfs:label xml:lang="en">inflammated femoral vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000213"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                <owl:someValuesFrom rdf:resource="&obo;FMA_21185"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000219 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000219">
+        <rdfs:label xml:lang="en">inflammated iliac vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000213"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_14333"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_18883"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_18884"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000220 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000220">
+        <rdfs:label xml:lang="en">deep vein thrombosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000217"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000221 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000221">
+        <rdfs:label xml:lang="en">auto-immune etiological process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000059"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000222 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000222">
+        <rdfs:label xml:lang="en">vascular necrosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000278"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000223 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000223">
+        <rdfs:label xml:lang="en">artery hardening</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000216"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000224 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000224">
+        <rdfs:label xml:lang="en">atheromous plaque formation in artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000216"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000225 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000225">
+        <rdfs:label xml:lang="en">embolism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000216"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000226 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000226">
+        <rdfs:label xml:lang="en">aneurysm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000016"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000231 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000231">
+        <rdfs:label xml:lang="en">ischemic disease</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_178"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;DOID_326"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000234 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000234">
+        <rdfs:label xml:lang="en">compression disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_178"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000235 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000235">
+        <rdfs:label xml:lang="en">compressed blood vessel</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000016"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000236 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000236">
+        <rdfs:label xml:lang="en">compressed celiac artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000235"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000237 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000237">
+        <rdfs:label xml:lang="en">compressed inferior vena cava</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000235"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000238 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000238">
+        <rdfs:label xml:lang="en">chronic atrial fibrillation disposition</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000092"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom rdf:resource="&obo;OGMS_0000064"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000110"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000239 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000239">
+        <rdfs:label xml:lang="en">right ventricular dilatation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000330"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000240 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000240">
+        <rdfs:label xml:lang="en">aneurysm rupture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000216"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000167"/>
+                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000226"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000248 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000248">
+        <rdfs:label xml:lang="en">myocardium disorder</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000015"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_9462"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000249 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000249">
+        <rdfs:label xml:lang="en">hypertrophied myocardium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000248"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000250 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000250">
+        <rdfs:label xml:lang="en">dilated myocardium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000248"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000252 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000252">
+        <rdfs:label xml:lang="en">myocardium of left ventricle with decreased compliance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000248"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000253 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000253">
+        <rdfs:label xml:lang="en">myocardium of right ventricle with adipose and fibrosis infiltration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000248"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000254 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000254">
+        <rdfs:label xml:lang="en">Tako Tsubo cardiomyopathy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_0050700"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000255 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000255">
+        <rdfs:label xml:lang="en">left ventricular non-compaction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_0050700"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000256 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000256">
+        <rdfs:label xml:lang="en">genetic hypertrophic cardiomyopathy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_11984"/>
+        <obo:IAO_0000116>A genetic hypertrophic cardiomyopathy is a hypertrophic cardiomyopathy that has a genetic etiological process.</obo:IAO_0000116>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000262 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000262">
+        <rdfs:label xml:lang="en">pericardium disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_7"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000040"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000023"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000116>Since pericardium is not a part of heart according to FMA, pericardium disease is not considered as a heart disease.</obo:IAO_0000116>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000263 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000263">
+        <rdfs:label xml:lang="en">inflammated organ or part of organ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000045"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000264 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000264">
+        <rdfs:label xml:lang="en">inflammated myocardium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000263"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                <owl:someValuesFrom rdf:resource="&obo;FMA_9462"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000267 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000267">
+        <rdfs:label xml:lang="en">vascular disease - unclassified by CVDO</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_178"/>
+        <obo:IAO_0000116>This is a dummy class not intended to be included in CVDO, used to store vascular diseases (or disorder or pathological processes) waiting to be classified somewhere else.</obo:IAO_0000116>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000268 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000268">
+        <rdfs:label xml:lang="en">aorta disorder</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000016"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_3734"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000270 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000270">
+        <rdfs:label xml:lang="en">capillary disorder</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000016"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_63194"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000273 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000273">
+        <rdfs:label xml:lang="en">cardiac atrium pathological process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000039"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000274 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000274">
+        <rdfs:label xml:lang="en">cardiac ventricle pathological process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000039"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000275 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000275">
+        <rdfs:label xml:lang="en">thromboembolism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000216"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000217"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000225"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000276 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000276">
+        <rdfs:label xml:lang="en">infarction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000278"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000277 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000277">
+        <rdfs:label xml:lang="en">pulmonary valve leaflet displacement into the right ventricle during systole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000170"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000278 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000278">
+        <rdfs:label xml:lang="en">necrosis due to a vascular pathological process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000061"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000279 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000279">
+        <rdfs:label xml:lang="en">cardiac blood circulation pathological process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000039"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000280 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000280">
+        <rdfs:label xml:lang="en">vascular blood circulation pathological process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000216"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000281 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000281">
+        <rdfs:label xml:lang="en">part of atrial myocardium with impaired conduction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000248"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000284 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000284">
+        <rdfs:label xml:lang="en">diabetic microangiopathy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_11713"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000285 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000285">
+        <rdfs:label xml:lang="en">diabetic macroangiopathy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_11713"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000288 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000288">
+        <rdfs:label xml:lang="en">atheromous plaque formation in coronary artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000224"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000290 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000290">
+        <rdfs:label xml:lang="en">infarcted myocardium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000248"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000291 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000291">
+        <rdfs:label xml:lang="en">coronary artery with atheromous plaques</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000327"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000292 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000292">
+        <rdfs:label xml:lang="en">acute coronary syndrome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000293"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="&obo;OGMS_0000094"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000293 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000293">
+        <rdfs:label xml:lang="en">atherosclerotic coronary artery disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_3393"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000291"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000294 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000294">
+        <rdfs:label xml:lang="en">left ventricular dilatation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000330"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000296 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000296">
+        <rdfs:label xml:lang="en">supraventricular tachycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000088"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000088"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000111"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000297 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000297">
+        <rdfs:label xml:lang="en">type II atrial flutter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000094"/>
+        <owl:disjointWith rdf:resource="&obo;CVDO_0000305"/>
+        <obo:IAO_0000115>AJOUTER DEF: tout ce qui n&#39;est pas type 1</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000298 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000298">
+        <rdfs:label xml:lang="en">left atrial flutter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000094"/>
+        <owl:disjointWith rdf:resource="&obo;CVDO_0000299"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000299 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000299">
+        <rdfs:label xml:lang="en">right atrial flutter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000301 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000301">
+        <rdfs:label xml:lang="en">junctional arrhythmia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000296"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000302 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000302">
+        <rdfs:label xml:lang="en">junctional rhythm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000301"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000303 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000303">
+        <rdfs:label xml:lang="en">junctional tachycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000301"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000308"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000304 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000304">
+        <rdfs:label xml:lang="en">atrioventricular nodal reentrant tachycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000303"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000305 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000305">
+        <rdfs:label xml:lang="en">type I atrial flutter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000306 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000306">
+        <rdfs:label xml:lang="en">atrial flutter episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000310"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000307 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000307">
+        <rdfs:label xml:lang="en">ventricular fibrillation episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000310"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000308 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000308">
+        <rdfs:label xml:lang="en">junctional tachycardia episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000310"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000309 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000309">
+        <rdfs:label xml:lang="en">premature atrial contraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000310"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000310 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000310">
+        <rdfs:label xml:lang="en">arrhythmia episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000059"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000311 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000311">
+        <rdfs:label xml:lang="en">heart block episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000059"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000312 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000312">
+        <rdfs:label xml:lang="en">atrioventricular block episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000311"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000313 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000313">
+        <rdfs:label xml:lang="en">infra-hisian block episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000311"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000314 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000314">
+        <rdfs:label xml:lang="en">sinoatrial block episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000311"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000315 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000315">
+        <rdfs:label xml:lang="en">Mobitz I second degree atrioventricular block episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000312"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000316 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000316">
+        <rdfs:label xml:lang="en">Mobitz II second degree atrioventricular block episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000312"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000317 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000317">
+        <rdfs:label xml:lang="en">first degree atrioventricular block episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000312"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000318 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000318">
+        <rdfs:label xml:lang="en">third degree atrioventricular block episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000312"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000319 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000319">
+        <rdfs:label xml:lang="en">left anterior fascicular block episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000313"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000320 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000320">
+        <rdfs:label xml:lang="en">left bundle branch block episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000313"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000321 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000321">
+        <rdfs:label xml:lang="en">left posterior fascicular block episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000313"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000322 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000322">
+        <rdfs:label xml:lang="en">right bundle branch block episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000313"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000323 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000323">
+        <rdfs:label xml:lang="en">Mobitz I second degree sinoatrial block episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000314"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000324 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000324">
+        <rdfs:label xml:lang="en">Mobitz II second degree sinoatrial block episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000314"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000325 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000325">
+        <rdfs:label xml:lang="en">first degree sinoatrial block episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000314"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000326 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000326">
+        <rdfs:label xml:lang="en">third degree sinoatrial block episode</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000314"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000327 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000327">
+        <rdfs:label xml:lang="en">coronary artery disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000016"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000328 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000328">
+        <rdfs:label xml:lang="en">highly pressured pulmonary blood vessel </rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000329"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000329 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000329">
+        <rdfs:label xml:lang="en">highly pressured blood vessel</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000016"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000330 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000330">
+        <rdfs:label xml:lang="en">ventricular dilatation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000274"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000331 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000331">
+        <rdfs:label xml:lang="en">ventricular hypertrophy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000274"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000332 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000332">
+        <rdfs:label xml:lang="en">left ventricular hypertrophy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000331"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000333 -->
+
+    <owl:Class rdf:about="&obo;CVDO_0000333">
+        <rdfs:label xml:lang="en">right ventricular hypertrophy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000331"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0000405 -->
+
+    <rdf:Description rdf:about="&obo;DOID_0000405">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000267"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050431 -->
+
+    <rdf:Description rdf:about="&obo;DOID_0050431">
+        <rdfs:subClassOf rdf:resource="&obo;DOID_0050700"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000253"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050644 -->
+
+    <rdf:Description rdf:about="&obo;DOID_0050644">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000267"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050645 -->
+
+    <rdf:Description rdf:about="&obo;DOID_0050645">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000267"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050650 -->
+
+    <rdf:Description rdf:about="&obo;DOID_0050650">
+        <rdfs:label>familial atrial fibrillation disposition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000092"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060000 -->
+
+    <rdf:Description rdf:about="&obo;DOID_0060000">
+        <obo:IAO_0000116>Should be put in &quot;infectious disease&quot; from IDO</obo:IAO_0000116>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_10234 -->
+
+    <rdf:Description rdf:about="&obo;DOID_10234">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000036"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_10272 -->
+
+    <rdf:Description rdf:about="&obo;DOID_10272">
+        <rdfs:label>left anterior fascicular block</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000081"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000050"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                                <owl:onClass rdf:resource="&obo;CVDO_0000077"/>
+                                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">0</owl:qualifiedCardinality>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000319"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000116>DOID label changed to &#39;left anterior fascicular block&#39; for symmetry reasons with &#39;left posterior fascicular block&#39;</obo:IAO_0000116>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_10273 -->
+
+    <rdf:Description rdf:about="&obo;DOID_10273">
+        <rdfs:subClassOf rdf:resource="&obo;DOID_114"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000059"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000047"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_10314 -->
+
+    <rdf:Description rdf:about="&obo;DOID_10314">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_114"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000022"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_10556 -->
+
+    <rdf:Description rdf:about="&obo;DOID_10556">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000234"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_10763 -->
+
+    <rdf:Description rdf:about="&obo;DOID_10763">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000196"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_10772 -->
+
+    <rdf:Description rdf:about="&obo;DOID_10772">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000267"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_10880 -->
+
+    <rdf:Description rdf:about="&obo;DOID_10880">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_3875"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000219"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_112 -->
+
+    <rdf:Description rdf:about="&obo;DOID_112">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000214"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_11312 -->
+
+    <rdf:Description rdf:about="&obo;DOID_11312">
+        <rdfs:label>Mobitz II second degree atrioventricular block</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000316"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000116>DOID label changed</obo:IAO_0000116>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_114 -->
+
+    <rdf:Description rdf:about="&obo;DOID_114">
+        <rdfs:subClassOf rdf:resource="&obo;DOID_1287"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000039"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000015"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_11502 -->
+
+    <rdf:Description rdf:about="&obo;DOID_11502">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000209"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CVDO_0000148"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000177"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;FMA_7235"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000166"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000168"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_11516 -->
+
+    <rdf:Description rdf:about="&obo;DOID_11516">
+        <rdfs:subClassOf rdf:resource="&obo;DOID_114"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;CVDO_0000283"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;BFO_0000015"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000196"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_11563 -->
+
+    <rdf:Description rdf:about="&obo;DOID_11563">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_865"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000215"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_11713 -->
+
+    <rdf:Description rdf:about="&obo;DOID_11713">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000231"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_118 -->
+
+    <rdf:Description rdf:about="&obo;DOID_118">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000040"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_11984 -->
+
+    <rdf:Description rdf:about="&obo;DOID_11984">
+        <rdfs:subClassOf rdf:resource="&obo;DOID_0050700"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000249"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000116>Hypertrophic cardiomyopathy has been defined by the presence of myocardial hypertrophy in the absence of hameodynamic stresses sufficient to account for the degree of hypertrophy and systemic diseases such as amyloidosis and glycogen storage disease.
+(Elliott et al., 2008, European Heart Journal, 29, 270-276)</obo:IAO_0000116>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_12282 -->
+
+    <rdf:Description rdf:about="&obo;DOID_12282">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_3875"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000218"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_12326 -->
+
+    <rdf:Description rdf:about="&obo;DOID_12326">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000064"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000333"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1271 -->
+
+    <rdf:Description rdf:about="&obo;DOID_1271">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;OGMS_0000061"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;FMA_63194"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000270"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_12929 -->
+
+    <rdf:Description rdf:about="&obo;DOID_12929">
+        <rdfs:subClassOf rdf:resource="&obo;DOID_114"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_12930 -->
+
+    <rdf:Description rdf:about="&obo;DOID_12930">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000250"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000116>&#39;Dilated cardiomyopathy is defined by the presence of left ventricular dilation and left ventricular systolic dysfunction in the absence of abnormal loading conditions (hypertension, valve disease) or coronary heart disease sufficient to cause global systolic impairment.
+(Elliott et al., 2008, European Heart Journal, 29, 270-276)</obo:IAO_0000116>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_12935 -->
+
+    <rdf:Description rdf:about="&obo;DOID_12935">
+        <rdfs:subClassOf rdf:resource="&obo;DOID_12930"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_13209 -->
+
+    <rdf:Description rdf:about="&obo;DOID_13209">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000081"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000050"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000322"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_13241 -->
+
+    <rdf:Description rdf:about="&obo;DOID_13241">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000267"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_13252 -->
+
+    <rdf:Description rdf:about="&obo;DOID_13252">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000267"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_14265 -->
+
+    <rdf:Description rdf:about="&obo;DOID_14265">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000209"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CVDO_0000148"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000177"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;FMA_7246"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000170"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000169"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_14557 -->
+
+    <rdf:Description rdf:about="&obo;DOID_14557">
+        <rdfs:subClassOf rdf:resource="&obo;DOID_6432"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_14566 -->
+
+    <rdf:Description rdf:about="&obo;DOID_14566">
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000031"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_150 -->
+
+    <rdf:Description rdf:about="&obo;DOID_150">
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000031"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1712 -->
+
+    <rdf:Description rdf:about="&obo;DOID_1712">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000189"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000187"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000177"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1754 -->
+
+    <rdf:Description rdf:about="&obo;DOID_1754">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000189"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000181"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000178"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_178 -->
+
+    <rdf:Description rdf:about="&obo;DOID_178">
+        <rdfs:subClassOf rdf:resource="&obo;DOID_1287"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000216"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000016"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1787 -->
+
+    <rdf:Description rdf:about="&obo;DOID_1787">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000262"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000024"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1936 -->
+
+    <rdf:Description rdf:about="&obo;DOID_1936">
+        <rdfs:subClassOf rdf:resource="&obo;DOID_2349"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000224"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_2349 -->
+
+    <rdf:Description rdf:about="&obo;DOID_2349">
+        <rdfs:subClassOf rdf:resource="&obo;DOID_2868"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000223"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_2388 -->
+
+    <rdf:Description rdf:about="&obo;DOID_2388">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000267"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_2403 -->
+
+    <rdf:Description rdf:about="&obo;DOID_2403">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_178"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000226"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000240"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_2494 -->
+
+    <rdf:Description rdf:about="&obo;DOID_2494">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000267"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_272 -->
+
+    <rdf:Description rdf:about="&obo;DOID_272">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000267"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3049 -->
+
+    <rdf:Description rdf:about="&obo;DOID_3049">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000222"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3103 -->
+
+    <rdf:Description rdf:about="&obo;DOID_3103">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000267"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_325 -->
+
+    <rdf:Description rdf:about="&obo;DOID_325">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000267"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3363 -->
+
+    <rdf:Description rdf:about="&obo;DOID_3363">
+        <rdfs:subClassOf rdf:resource="&obo;DOID_2349"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_2349"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;CVDO_0000223"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;FMA_49893"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3393 -->
+
+    <rdf:Description rdf:about="&obo;DOID_3393">
+        <rdfs:subClassOf rdf:resource="&obo;DOID_3394"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000327"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3394 -->
+
+    <rdf:Description rdf:about="&obo;DOID_3394">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000231"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000231"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;OGMS_0000061"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;FMA_7088"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_341 -->
+
+    <rdf:Description rdf:about="&obo;DOID_341">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000231"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3454 -->
+
+    <rdf:Description rdf:about="&obo;DOID_3454">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000276"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_50801"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000167"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;BFO_0000040"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;fma#part_of"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;FMA_50801"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000116>CVDO note: Should be axiomatized to be classified as a cerebrovascular accident.</obo:IAO_0000116>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3825 -->
+
+    <rdf:Description rdf:about="&obo;DOID_3825">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000267"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_384 -->
+
+    <rdf:Description rdf:about="&obo;DOID_384">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000303"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3875 -->
+
+    <rdf:Description rdf:about="&obo;DOID_3875">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_864"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000217"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3951 -->
+
+    <rdf:Description rdf:about="&obo;DOID_3951">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_820"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom rdf:resource="&obo;OGMS_0000094"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_397 -->
+
+    <rdf:Description rdf:about="&obo;DOID_397">
+        <rdfs:subClassOf rdf:resource="&obo;DOID_0050700"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000252"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000116>Restrictive cardiomyopathy is characterized by decreased compliance of the left myocardium, in the absence of dilated cardiomyopathy and hypertrophic cardiomyopathy.</obo:IAO_0000116>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_4078 -->
+
+    <rdf:Description rdf:about="&obo;DOID_4078">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000189"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000184"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000179"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_4079 -->
+
+    <rdf:Description rdf:about="&obo;DOID_4079">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000148"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_4080 -->
+
+    <rdf:Description rdf:about="&obo;DOID_4080">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000209"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CVDO_0000148"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000177"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;FMA_7234"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000171"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000173"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A tricuspid valve disease where the heart&#39;s tricuspid valve fails to close properly during systole. As a result, with each heart beat, blood is pumped out from the right side of the heart in the opposite direction to normal.</obo:IAO_0000115>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_4193 -->
+
+    <rdf:Description rdf:about="&obo;DOID_4193">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000217"/>
+        <obo:IAO_0000116>CVDO note: Should be axiomatized in order to be classified as a cerebrovascular accident.</obo:IAO_0000116>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_4248 -->
+
+    <rdf:Description rdf:about="&obo;DOID_4248">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000293"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_4372 -->
+
+    <rdf:Description rdf:about="&obo;DOID_4372">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000225"/>
+        <obo:IAO_0000116>CVDO note: Should be axiomatized in order to be classified as a cerebrovascular accident.</obo:IAO_0000116>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_4562 -->
+
+    <rdf:Description rdf:about="&obo;DOID_4562">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000010"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_519 -->
+
+    <rdf:Description rdf:about="&obo;DOID_519">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_865"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000212"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_520 -->
+
+    <rdf:Description rdf:about="&obo;DOID_520">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;OGMS_0000061"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;FMA_3734"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000268"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_5232 -->
+
+    <rdf:Description rdf:about="&obo;DOID_5232">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_989"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000163"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000158"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_5453 -->
+
+    <rdf:Description rdf:about="&obo;DOID_5453">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000267"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_5644 -->
+
+    <rdf:Description rdf:about="&obo;DOID_5644">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_989"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000162"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000157"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_57 -->
+
+    <rdf:Description rdf:about="&obo;DOID_57">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000209"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000172"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CVDO_0000148"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000177"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;FMA_7236"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000175"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_5749 -->
+
+    <rdf:Description rdf:about="&obo;DOID_5749">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_4079"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000152"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_5844 -->
+
+    <rdf:Description rdf:about="&obo;DOID_5844">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000276"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="&obo;FMA_9462"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000167"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;BFO_0000040"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;fma#part_of"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;FMA_9462"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000292"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_6000 -->
+
+    <rdf:Description rdf:about="&obo;DOID_6000">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000191"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_61 -->
+
+    <rdf:Description rdf:about="&obo;DOID_61">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_4079"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000149"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_62 -->
+
+    <rdf:Description rdf:about="&obo;DOID_62">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_4079"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000151"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_6420 -->
+
+    <rdf:Description rdf:about="&obo;DOID_6420">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000189"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000186"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000180"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_6712 -->
+
+    <rdf:Description rdf:about="&obo;DOID_6712">
+        <rdfs:subClassOf rdf:resource="&obo;DOID_325"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_6713 -->
+
+    <rdf:Description rdf:about="&obo;DOID_6713">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000267"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_7 -->
+
+    <rdf:Description rdf:about="&obo;DOID_7">
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000031"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_820 -->
+
+    <rdf:Description rdf:about="&obo;DOID_820">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_114"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000264"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_8514 -->
+
+    <rdf:Description rdf:about="&obo;DOID_8514">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000094"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000239"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_8515 -->
+
+    <rdf:Description rdf:about="&obo;DOID_8515">
+        <rdfs:subClassOf rdf:resource="&obo;DOID_114"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000328"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_8517 -->
+
+    <rdf:Description rdf:about="&obo;DOID_8517">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000239"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_864 -->
+
+    <rdf:Description rdf:about="&obo;DOID_864">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_865"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000213"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_865 -->
+
+    <rdf:Description rdf:about="&obo;DOID_865">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_178"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000211"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_866 -->
+
+    <rdf:Description rdf:about="&obo;DOID_866">
+        <rdfs:subClassOf rdf:resource="&obo;DOID_178"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&obo;OGMS_0000061"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
+                                                        <owl:someValuesFrom rdf:resource="&obo;FMA_50723"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000214"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_8805 -->
+
+    <rdf:Description rdf:about="&obo;DOID_8805">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000293"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_9286 -->
+
+    <rdf:Description rdf:about="&obo;DOID_9286">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000267"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_9540 -->
+
+    <rdf:Description rdf:about="&obo;DOID_9540">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000267"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_988 -->
+
+    <rdf:Description rdf:about="&obo;DOID_988">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_989"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000160"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000156"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_989 -->
+
+    <rdf:Description rdf:about="&obo;DOID_989">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DOID_4079"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000164"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000165"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_9892 -->
+
+    <rdf:Description rdf:about="&obo;DOID_9892">
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000234"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000031 -->
+
+    <rdf:Description rdf:about="&obo;OGMS_0000031">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000016"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000045 -->
+
+    <rdf:Description rdf:about="&obo;OGMS_0000045">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000059 -->
+
+    <rdf:Description rdf:about="&obo;OGMS_0000059">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000060 -->
+
+    <rdf:Description rdf:about="&obo;OGMS_0000060">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000061 -->
+
+    <rdf:Description rdf:about="&obo;OGMS_0000061">
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000060"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000063 -->
+
+    <rdf:Description rdf:about="&obo;OGMS_0000063">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000078 -->
+
+    <rdf:Description rdf:about="&obo;OGMS_0000078">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="&rdfs;CVDO_0000002">
+        <rdfs:label xml:lang="en">label</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&rdf;CVDO_0000001">
+        <rdfs:label xml:lang="en">PlainLiteral</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+
