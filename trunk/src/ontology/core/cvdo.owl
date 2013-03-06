@@ -23,10 +23,10 @@
      xmlns:fma="&obo;fma#">
     <owl:Ontology rdf:about="&obo;cvdo">
         <owl:imports rdf:resource="&obo;bfo.owl"/>
-        <owl:imports rdf:resource="&obo;cvdo/external/doid_import.owl"/>
-        <owl:imports rdf:resource="&obo;cvdo/external/fma_import.owl"/>
-        <owl:imports rdf:resource="&obo;cvdo/external/ogms_import.owl"/>
-        <owl:imports rdf:resource="&obo;cvdo/external/ro_import.owl"/>
+        <owl:imports rdf:resource="https://cvdo.googlecode.com/svn/trunk/src/ontology/import/cvdo_doid_import.owl"/>
+        <owl:imports rdf:resource="https://cvdo.googlecode.com/svn/trunk/src/ontology/import/cvdo_fma_import.owl"/>
+        <owl:imports rdf:resource="https://cvdo.googlecode.com/svn/trunk/src/ontology/import/cvdo_ogms_import.owl"/>
+        <owl:imports rdf:resource="https://cvdo.googlecode.com/svn/trunk/src/ontology/import/cvdo_ro_import.owl"/>
     </owl:Ontology>
     
 
