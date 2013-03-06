@@ -139,6 +139,7 @@ http://code.google.com/p/bfo/issues/detail?id=50</obo:IAO_0000116>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <obo:IAO_0000116>Since pericardium is not a part of heart according to FMA, pericardium disorder is not considered as a heart disorder.</obo:IAO_0000116>
     </owl:Class>
     
 
@@ -211,7 +212,6 @@ http://code.google.com/p/bfo/issues/detail?id=50</obo:IAO_0000116>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000116>Since pericardium is not a part of heart according to FMA, pericardium disorder is not considered as a heart disorder.</obo:IAO_0000116>
     </owl:Class>
     
 
@@ -384,20 +384,25 @@ http://code.google.com/p/bfo/issues/detail?id=50</obo:IAO_0000116>
     <owl:Class rdf:about="&obo;CVDO_0000044">
         <rdfs:label xml:lang="en">first degree atrioventricular block</rdfs:label>
         <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
-                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000317"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000043"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000317"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </rdfs:subClassOf>
     </owl:Class>
     
@@ -408,20 +413,25 @@ http://code.google.com/p/bfo/issues/detail?id=50</obo:IAO_0000116>
     <owl:Class rdf:about="&obo;CVDO_0000045">
         <rdfs:label xml:lang="en">Mobitz I second degree atrioventricular block</rdfs:label>
         <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
-                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000315"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000043"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000315"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </rdfs:subClassOf>
     </owl:Class>
     
@@ -432,20 +442,25 @@ http://code.google.com/p/bfo/issues/detail?id=50</obo:IAO_0000116>
     <owl:Class rdf:about="&obo;CVDO_0000046">
         <rdfs:label xml:lang="en">third degree atrioventricular block</rdfs:label>
         <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
-                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000318"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000043"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000318"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </rdfs:subClassOf>
         <oboInOwl:hasExactSynonym>complete heart block</oboInOwl:hasExactSynonym>
     </owl:Class>
@@ -530,6 +545,7 @@ http://code.google.com/p/bfo/issues/detail?id=50</obo:IAO_0000116>
 
     <owl:Class rdf:about="&obo;CVDO_0000061">
         <rdfs:label xml:lang="en">sinoatrial block</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000072"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
@@ -554,6 +570,7 @@ http://code.google.com/p/bfo/issues/detail?id=50</obo:IAO_0000116>
 
     <owl:Class rdf:about="&obo;CVDO_0000062">
         <rdfs:label xml:lang="en">Mobitz I second degree sinoatrial block</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000061"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
@@ -605,6 +622,7 @@ http://code.google.com/p/bfo/issues/detail?id=50</obo:IAO_0000116>
 
     <owl:Class rdf:about="&obo;CVDO_0000064">
         <rdfs:label xml:lang="en">first degree sinoatrial block</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000061"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
@@ -758,6 +776,7 @@ http://code.google.com/p/bfo/issues/detail?id=50</obo:IAO_0000116>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_10272"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
@@ -2050,7 +2069,6 @@ http://code.google.com/p/bfo/issues/detail?id=50</obo:IAO_0000116>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <obo:IAO_0000116>Since pericardium is not a part of heart according to FMA, pericardium disease is not considered as a heart disease.</obo:IAO_0000116>
     </owl:Class>
     
 
@@ -2746,41 +2764,26 @@ http://code.google.com/p/bfo/issues/detail?id=50</obo:IAO_0000116>
 
     <rdf:Description rdf:about="&obo;DOID_10272">
         <rdfs:label>left anterior fascicular block</rdfs:label>
-        <owl:equivalentClass>
+        <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;CVDO_0000081"/>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
-                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000050"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;BFO_0000113"/>
-                                <owl:onClass rdf:resource="&obo;CVDO_0000077"/>
-                                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">0</owl:qualifiedCardinality>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000319"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
-                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000319"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000116>DOID label changed to &#39;left anterior fascicular block&#39; for symmetry reasons with &#39;left posterior fascicular block&#39;</obo:IAO_0000116>
     </rdf:Description>
@@ -2907,20 +2910,25 @@ http://code.google.com/p/bfo/issues/detail?id=50</obo:IAO_0000116>
     <rdf:Description rdf:about="&obo;DOID_11312">
         <rdfs:label>Mobitz II second degree atrioventricular block</rdfs:label>
         <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;OGMS_0000063"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
-                                <owl:someValuesFrom rdf:resource="&obo;CVDO_0000316"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CVDO_0000043"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;CVDO_0000316"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000116>DOID label changed</obo:IAO_0000116>
     </rdf:Description>
@@ -2955,6 +2963,7 @@ http://code.google.com/p/bfo/issues/detail?id=50</obo:IAO_0000116>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <obo:IAO_0000116>CVDO note: Since pericardium is not a part of heart according to FMA, pericardium disease is not considered as a heart disease.</obo:IAO_0000116>
     </rdf:Description>
     
 
@@ -3218,7 +3227,6 @@ http://code.google.com/p/bfo/issues/detail?id=50</obo:IAO_0000116>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000081"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
