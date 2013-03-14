@@ -4,6 +4,7 @@
 <!DOCTYPE rdf:RDF [
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
     <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY fma "http://purl.obolibrary.org/obo/fma#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
@@ -14,6 +15,7 @@
 
 <rdf:RDF xmlns="&obo;CVDO#"
      xml:base="&obo;CVDO"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -22,6 +24,10 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:fma="&obo;fma#">
     <owl:Ontology rdf:about="&obo;cvdo">
+        <dc:contributor>Arnaud Rosier</dc:contributor>
+        <dc:contributor>Adrien Barton</dc:contributor>
+        <rdfs:comment>CVDO is an ontology of cardiovascular diseases based on the OGMS model of disease. It is being developed at the INSERM research institute (Institut National de la Santé et de la Recherche Médicale).</rdfs:comment>
+        <dc:contributor>Jean-François Ethier</dc:contributor>
         <owl:imports rdf:resource="&obo;bfo.owl"/>
         <owl:imports rdf:resource="https://cvdo.googlecode.com/svn/trunk/src/ontology/import/cvdo_doid_import.owl"/>
         <owl:imports rdf:resource="https://cvdo.googlecode.com/svn/trunk/src/ontology/import/cvdo_fma_import.owl"/>
