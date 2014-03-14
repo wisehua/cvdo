@@ -1330,7 +1330,7 @@
     <!-- http://purl.obolibrary.org/obo/DOID_118 -->
 
     <owl:Class rdf:about="&obo;DOID_118">
-        <rdfs:label rdf:datatype="&xsd;string">pericardial effusion (disease)</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">pericardial effusion</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A heart disease that is characterized by an abnormal accumulation of fluid in the pericardial cavity.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:118</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D010490</oboInOwl:hasDbXref>
