@@ -33,81 +33,111 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CVDO_0000419 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;CVDO_0000419"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
+        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/doid#gram-positive_bacterial_infectious_disease -->
+
     <owl:AnnotationProperty rdf:about="&obo;doid#gram-positive_bacterial_infectious_disease">
         <rdfs:comment rdf:datatype="&xsd;string">gram-positive bacterial infectious disease</rdfs:comment>
         <rdfs:subPropertyOf rdf:resource="&oboInOwl;SubsetProperty"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&obo;CVDO_0000174"/>
-    <owl:AnnotationProperty rdf:about="&oboInOwl;creation_date"/>
-    <owl:AnnotationProperty rdf:about="&oboInOwl;inSubset">
-        <rdfs:label rdf:datatype="&xsd;string">in_subset</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&oboInOwl;hasExactSynonym">
-        <rdfs:label rdf:datatype="&xsd;string">has_exact_synonym</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&oboInOwl;created_by"/>
-    <owl:AnnotationProperty rdf:about="&oboInOwl;hasRelatedSynonym">
-        <rdfs:label rdf:datatype="&xsd;string">has_related_synonym</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
-        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&oboInOwl;hasDbXref">
-        <rdfs:label rdf:datatype="&xsd;string">database_cross_reference</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000412">
-        <rdfs:label xml:lang="en">imported from</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&oboInOwl;hasAlternativeId">
-        <rdfs:label rdf:datatype="&xsd;string">has_alternative_id</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&oboInOwl;hasOBONamespace">
-        <rdfs:label rdf:datatype="&xsd;string">has_obo_namespace</rdfs:label>
-    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#SubsetProperty -->
+
     <owl:AnnotationProperty rdf:about="&oboInOwl;SubsetProperty">
         <rdfs:label rdf:datatype="&xsd;string">subset_property</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasAlternativeId">
+        <rdfs:label rdf:datatype="&xsd;string">has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasDbXref">
+        <rdfs:label rdf:datatype="&xsd;string">database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasExactSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasOBONamespace">
+        <rdfs:label rdf:datatype="&xsd;string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasRelatedSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
     <owl:AnnotationProperty rdf:about="&oboInOwl;id"/>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000054 -->
-
-    <owl:ObjectProperty rdf:about="&obo;BFO_0000054"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000066 -->
-
-    <owl:ObjectProperty rdf:about="&obo;BFO_0000066"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000117 -->
-
-    <owl:ObjectProperty rdf:about="&obo;BFO_0000117"/>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;inSubset">
+        <rdfs:label rdf:datatype="&xsd;string">in_subset</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -122,108 +152,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CVDO_0000015 -->
-
-    <owl:Class rdf:about="&obo;CVDO_0000015"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CVDO_0000023 -->
-
-    <owl:Class rdf:about="&obo;CVDO_0000023"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CVDO_0000214 -->
-
-    <owl:Class rdf:about="&obo;CVDO_0000214"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CVDO_0000216 -->
-
-    <owl:Class rdf:about="&obo;CVDO_0000216"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CVDO_0000217 -->
-
-    <owl:Class rdf:about="&obo;CVDO_0000217"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CVDO_0000224 -->
-
-    <owl:Class rdf:about="&obo;CVDO_0000224"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CVDO_0000225 -->
-
-    <owl:Class rdf:about="&obo;CVDO_0000225"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CVDO_0000226 -->
-
-    <owl:Class rdf:about="&obo;CVDO_0000226"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CVDO_0000231 -->
-
-    <owl:Class rdf:about="&obo;CVDO_0000231"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CVDO_0000267 -->
-
-    <owl:Class rdf:about="&obo;CVDO_0000267"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CVDO_0000276 -->
-
-    <owl:Class rdf:about="&obo;CVDO_0000276"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_0000405 -->
 
     <owl:Class rdf:about="&obo;DOID_0000405">
         <rdfs:label rdf:datatype="&xsd;string">vascular tissue disease</rdfs:label>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:0000405</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_0050155 -->
-
-    <owl:Class rdf:about="&obo;DOID_0050155">
-        <rdfs:label rdf:datatype="&xsd;string">sensory system disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_863"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A body system disease which is located in a part of the nervous system responsible for processing sensory information that consists of sensory receptors, neural pathways, and parts of the brain involved in sensory perception. Commonly recognized sensory systems are those for vision, hearing, somatic sensation (touch), taste and olfaction (smell).</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:0050155</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_0050161 -->
-
-    <owl:Class rdf:about="&obo;DOID_0050161">
-        <rdfs:label rdf:datatype="&xsd;string">lower respiratory tract disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_1579"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A respiratory system disease which involves the lower respiratory tract.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:0050161</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:478.1</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:478.19</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:195823002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:266346007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0029581</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
@@ -258,7 +191,6 @@
 
     <owl:Class rdf:about="&obo;DOID_0050451">
         <rdfs:label rdf:datatype="&xsd;string">Brugada syndrome</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_10273"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A heart conduction disease that is characterised by abnormal electrocardiogram (ECG) findings and an increased risk of sudden cardiac death.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:0050451</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D053840</oboInOwl:hasDbXref>
@@ -307,7 +239,7 @@
     <!-- http://purl.obolibrary.org/obo/DOID_0050650 -->
 
     <owl:Class rdf:about="&obo;DOID_0050650">
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A heart conduction disease that is characterized by uncoordinated electrical activity in the heart&#39;s upper chambers (the atria), which causes the heartbeat to become fast and irregular and has_material_basis_in autosomal dominant inheritance of the familial atrial fibrillation (ATFB) genes.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A heart conduction disease that is characterized by uncoordinated electrical activity in the heart&apos;s upper chambers (the atria), which causes the heartbeat to become fast and irregular and has_material_basis_in autosomal dominant inheritance of the familial atrial fibrillation (ATFB) genes.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:0050650</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">OMIM:607554</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">OMIM:611493</oboInOwl:hasDbXref>
@@ -322,8 +254,7 @@
     <!-- http://purl.obolibrary.org/obo/DOID_0050700 -->
 
     <owl:Class rdf:about="&obo;DOID_0050700">
-        <rdfs:label rdf:datatype="&xsd;string">cardiomyopathy</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_114"/>
+        <rdfs:label rdf:datatype="&xsd;string">cardiomyopathy (1995 definition)</rdfs:label>
         <oboInOwl:creation_date rdf:datatype="&xsd;string">2012-01-03T02:54:11Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A heart disease that is characterized by deterioration of the funciton of the heart muscle.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:0050700</oboInOwl:id>
@@ -338,34 +269,9 @@
 
     <owl:Class rdf:about="&obo;DOID_0060000">
         <rdfs:label rdf:datatype="&xsd;string">infective endocarditis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_10314"/>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000031"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A heart disease involving inflammation of the endocardium (inner layer of the heart) caused by bacterial infection.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:0060000</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_0060051 -->
-
-    <owl:Class rdf:about="&obo;DOID_0060051">
-        <rdfs:label rdf:datatype="&xsd;string">autoimmune disease of cardiovascular system</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_417"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">An autoimmune disease that is the abnormal functioning of the immune system that causes your immune system to produce antibodies or T cells against cells and/or tissues in the cardiovascular system.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:0060051</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_0060056 -->
-
-    <owl:Class rdf:about="&obo;DOID_0060056">
-        <rdfs:label rdf:datatype="&xsd;string">hypersensitivity reaction disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_2914"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:0060056</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
@@ -375,84 +281,12 @@
     <!-- http://purl.obolibrary.org/obo/DOID_0060068 -->
 
     <owl:Class rdf:about="&obo;DOID_0060068">
-        <rdfs:label rdf:datatype="&xsd;string">marantic endocarditis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_10314"/>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000031"/>
         <oboInOwl:creation_date rdf:datatype="&xsd;string">2011-04-13T03:14:26Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">An endocarditis that results from the deposition of small sterile vegetations on valve leaflets.</obo:IAO_0000115>
+        <obo:CVDO_0000419 rdf:datatype="&xsd;string">An non-infective endocarditis that results in the deposition of small sterile vegetations on valve leaflets.</obo:CVDO_0000419>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:0060068</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:created_by rdf:datatype="&xsd;string">lschriml</oboInOwl:created_by>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">non-bacterial thrombotic endocarditis</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_0060072 -->
-
-    <owl:Class rdf:about="&obo;DOID_0060072">
-        <rdfs:label rdf:datatype="&xsd;string">benign neoplasm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_14566"/>
-        <oboInOwl:creation_date rdf:datatype="&xsd;string">2011-05-11T12:18:41Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A disease of cellular proliferation that results in abnormal growths in the body which lack the ability to metastasize.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:0060072</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:created_by rdf:datatype="&xsd;string">lschriml</oboInOwl:created_by>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_0060084 -->
-
-    <owl:Class rdf:about="&obo;DOID_0060084">
-        <rdfs:label rdf:datatype="&xsd;string">cell type benign neoplasm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_0060072"/>
-        <oboInOwl:creation_date rdf:datatype="&xsd;string">2011-07-14T11:59:48Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A benign neoplasm that is classified by the type of cell or tissue from which it is derived.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:0060084</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:created_by rdf:datatype="&xsd;string">lschriml</oboInOwl:created_by>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_0060085 -->
-
-    <owl:Class rdf:about="&obo;DOID_0060085">
-        <rdfs:label rdf:datatype="&xsd;string">organ system benign neoplasm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_0060072"/>
-        <oboInOwl:creation_date rdf:datatype="&xsd;string">2011-07-14T12:12:23Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:0060085</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:created_by rdf:datatype="&xsd;string">lschriml</oboInOwl:created_by>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_0060121 -->
-
-    <owl:Class rdf:about="&obo;DOID_0060121">
-        <rdfs:label rdf:datatype="&xsd;string">integumentary system benign neoplasm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_0060085"/>
-        <oboInOwl:creation_date rdf:datatype="&xsd;string">2011-07-27T01:49:44Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:0060121</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:created_by rdf:datatype="&xsd;string">lschriml</oboInOwl:created_by>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_0080000 -->
-
-    <owl:Class rdf:about="&obo;DOID_0080000">
-        <rdfs:label rdf:datatype="&xsd;string">muscular disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_17"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:0080000</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
     
@@ -483,7 +317,6 @@
 
     <owl:Class rdf:about="&obo;DOID_10128">
         <rdfs:label rdf:datatype="&xsd;string">venous insufficiency</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_866"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:10128</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:459.81</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D014689</oboInOwl:hasDbXref>
@@ -514,37 +347,7 @@
 
     <owl:Class rdf:about="&obo;DOID_10230">
         <rdfs:label rdf:datatype="&xsd;string">aortic atherosclerosis</rdfs:label>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;DOID_1936"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="&obo;OGMS_0000063"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Class>
-                                                <owl:intersectionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="&obo;CVDO_0000224"/>
-                                                    <owl:Restriction>
-                                                        <owl:onProperty rdf:resource="&obo;BFO_0000066"/>
-                                                        <owl:someValuesFrom rdf:resource="&obo;FMA_3734"/>
-                                                    </owl:Restriction>
-                                                </owl:intersectionOf>
-                                            </owl:Class>
-                                        </owl:someValuesFrom>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_1936"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Aortic atherosclerosis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Atherosclerosis of aorta (disorder)</oboInOwl:hasExactSynonym>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:10230</oboInOwl:id>
@@ -612,7 +415,7 @@
 
     <owl:Class rdf:about="&obo;DOID_10273">
         <rdfs:label rdf:datatype="&xsd;string">heart conduction disease</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A heart disease that involves the heart&#39;s electrical conduction system.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A heart disease that involves the heart&apos;s electrical conduction system.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:10273</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:426.6</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:195053008</oboInOwl:hasDbXref>
@@ -635,12 +438,12 @@
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C34972</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="&xsd;string">OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">OMIM:179600</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Raynaud&#39;s disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Raynaud&#39;s disease (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Raynaud&#39;s syndrome</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Raynaud&#39;s syndrome (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Raynaud&#39;s syndrome (disorder) [Ambiguous]</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Raynaud&#39;s syndrome NOS (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Raynaud&apos;s disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Raynaud&apos;s disease (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Raynaud&apos;s syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Raynaud&apos;s syndrome (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Raynaud&apos;s syndrome (disorder) [Ambiguous]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Raynaud&apos;s syndrome NOS (disorder)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:123266007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155429004</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:195294005</oboInOwl:hasDbXref>
@@ -678,8 +481,7 @@
     <!-- http://purl.obolibrary.org/obo/DOID_10392 -->
 
     <owl:Class rdf:about="&obo;DOID_10392">
-        <rdfs:label rdf:datatype="&xsd;string">anomalous atrioventricular excitation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_10273"/>
+        <rdfs:label rdf:datatype="&xsd;string">anomalous atrioventricular excitation (disease)</rdfs:label>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Anomalous A-V excitation</oboInOwl:hasExactSynonym>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:10392</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:426.7</oboInOwl:hasDbXref>
@@ -698,7 +500,7 @@
     <!-- http://purl.obolibrary.org/obo/DOID_10507 -->
 
     <owl:Class rdf:about="&obo;DOID_10507">
-        <rdfs:label rdf:datatype="&xsd;string">Dressler&#39;s syndrome</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Dressler&apos;s syndrome</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;DOID_1787"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:10507</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:411.0</oboInOwl:hasDbXref>
@@ -747,7 +549,6 @@
 
     <owl:Class rdf:about="&obo;DOID_10591">
         <rdfs:label rdf:datatype="&xsd;string">pre-eclampsia</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_10763"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:10591</oboInOwl:id>
         <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:12684</oboInOwl:hasAlternativeId>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Gestational hypertension</oboInOwl:hasExactSynonym>
@@ -870,7 +671,6 @@
     <owl:Class rdf:about="&obo;DOID_1073">
         <rdfs:label rdf:datatype="&xsd;string">renal hypertension</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;DOID_11130"/>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_557"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:1073</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D006977</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C3121</oboInOwl:hasDbXref>
@@ -905,7 +705,6 @@
 
     <owl:Class rdf:about="&obo;DOID_10763">
         <rdfs:label rdf:datatype="&xsd;string">hypertension</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_178"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:10763</oboInOwl:id>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">HTN</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">High blood pressure (&amp; [essential hypertension])</oboInOwl:hasExactSynonym>
@@ -932,46 +731,18 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_10772 -->
-
-    <owl:Class rdf:about="&obo;DOID_10772">
-        <rdfs:label rdf:datatype="&xsd;string">thrombotic thrombocytopenic purpura</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_2452"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:10772</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D011697</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Moschcowitz&#39;s syndrome</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C78797</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155443009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:195358008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:195359000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:360402008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:78129009</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">TTP - Thrombotic thrombocytopenic purpura</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Thrombotic microangiopathy</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Thrombotic microangiopathy (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Thrombotic microangiopathy NOS (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Thrombotic thrombocytopenic purpura</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Thrombotic thrombocytopenic purpura (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Thrombotic thrombocytopenic purpura [Ambiguous]</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0034155</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_10778 -->
 
     <owl:Class rdf:about="&obo;DOID_10778">
-        <rdfs:label rdf:datatype="&xsd;string">fiedler&#39;s myocarditis</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">fiedler&apos;s myocarditis</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;DOID_3951"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:10778</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:422.91</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Idiopathic myocarditis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Idiopathic myocarditis (disorder)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Idiopathic myocarditis NOS (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Isolated (Fiedler&#39;s) myocarditis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Isolated (Fiedler&#39;s) myocarditis (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Isolated (Fiedler&apos;s) myocarditis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Isolated (Fiedler&apos;s) myocarditis (disorder)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:194954007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:194955008</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:266238009</oboInOwl:hasDbXref>
@@ -1106,38 +877,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_10914 -->
-
-    <owl:Class rdf:about="&obo;DOID_10914">
-        <rdfs:label rdf:datatype="&xsd;string">amnestic disorder</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_1561"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A cognitive disorder where the memory is disturbed or lost and involves the loss of memories previously established, loss of the ability to create new memories, or loss of the ability to learn new information.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Amnestic syndrome</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:10914</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:4544</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Korsakoff&#39;s psychosis or syndrome</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D000647</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C2867</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:162199006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:247606008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:3298001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:386807006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:48167000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:78461004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0002622</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0002625</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">amnesia</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_10941 -->
 
     <owl:Class rdf:about="&obo;DOID_10941">
         <rdfs:label rdf:datatype="&xsd;string">intracranial aneurysm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000226"/>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_2403"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:10941</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D002532</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C34458</oboInOwl:hasDbXref>
@@ -1158,7 +902,6 @@
     <owl:Class rdf:about="&obo;DOID_10991">
         <rdfs:label rdf:datatype="&xsd;string">basal ganglia cerebrovascular disease</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;DOID_6713"/>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_679"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:10991</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D020144</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0751739</oboInOwl:hasDbXref>
@@ -1363,7 +1106,6 @@
 
     <owl:Class rdf:about="&obo;DOID_11482">
         <rdfs:label rdf:datatype="&xsd;string">hemopericardium</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000023"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A pericardial effusion that results from blood in the pericardial sac.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:11482</oboInOwl:id>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Haemopericardium</oboInOwl:hasExactSynonym>
@@ -1382,13 +1124,12 @@
 
     <owl:Class rdf:about="&obo;DOID_115">
         <rdfs:label rdf:datatype="&xsd;string">cardiac tamponade</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_118"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A pericardial effusion in which fluid accumulates in the pericardium (the sac in which the heart is enclosed) and the pericardial spaces fills up faster than the pericardial sac can stretch.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:115</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:423.3</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D002305</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C50481</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Rose&#39;s tamponade</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Rose&apos;s tamponade</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155341007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:194975004</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:266295005</oboInOwl:hasDbXref>
@@ -1558,7 +1299,6 @@
 
     <owl:Class rdf:about="&obo;DOID_11695">
         <rdfs:label rdf:datatype="&xsd;string">portal vein thrombosis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000217"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:11695</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:452</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C78565</oboInOwl:hasDbXref>
@@ -1590,7 +1330,7 @@
     <!-- http://purl.obolibrary.org/obo/DOID_118 -->
 
     <owl:Class rdf:about="&obo;DOID_118">
-        <rdfs:label rdf:datatype="&xsd;string">pericardial effusion</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">pericardial effusion (disease)</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A heart disease that is characterized by an abnormal accumulation of fluid in the pericardial cavity.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:118</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D010490</oboInOwl:hasDbXref>
@@ -1608,7 +1348,6 @@
 
     <owl:Class rdf:about="&obo;DOID_11840">
         <rdfs:label rdf:datatype="&xsd;string">coronary artery vasospasm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_3363"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Coronary Vasospasm</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Coronary artery spasm (disorder)</oboInOwl:hasExactSynonym>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:11840</oboInOwl:id>
@@ -1649,7 +1388,6 @@
 
     <owl:Class rdf:about="&obo;DOID_11847">
         <rdfs:label rdf:datatype="&xsd;string">coronary thrombosis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000217"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Coronary artery thrombosis (disorder)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Coronary thrombosis</oboInOwl:hasExactSynonym>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:11847</oboInOwl:id>
@@ -1703,8 +1441,6 @@
 
     <owl:Class rdf:about="&obo;DOID_12010">
         <rdfs:label rdf:datatype="&xsd;string">ischemic optic neuropathy</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000231"/>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_1891"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:12010</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:377.41</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Ischemic optic neuropathy</oboInOwl:hasExactSynonym>
@@ -1731,37 +1467,6 @@
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155282009</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:72011007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0155567</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_12132 -->
-
-    <owl:Class rdf:about="&obo;DOID_12132">
-        <rdfs:label rdf:datatype="&xsd;string">Wegener&#39;s granulomatosis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_417"/>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_865"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">An autoimmune disease that is a vasculitis that is located_in lung, located_in kidney, located_in skin resulting from an autoimmune attack by antineutrophil cytoplasmic antibodies against small and medium-size blood vessels.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:12132</oboInOwl:id>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Granulomatosis - Wegener&#39;s</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:446.4</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D014890</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C3444</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Necrotizing respiratory granulomatosis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">OMIM:608710</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155445002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:195353004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:23782005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:239934006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:266323005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:390001000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0043092</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Wegener&#39;s granulomatosis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Wegener&#39;s granulomatosis (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Wegener&#39;s granulomatosis (disorder) [Ambiguous]</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Wegener&#39;s syndrome (disorder)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
@@ -1807,7 +1512,6 @@
 
     <owl:Class rdf:about="&obo;DOID_12326">
         <rdfs:label rdf:datatype="&xsd;string">chronic pulmonary heart disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_8515"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:12326</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:416.8</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:194887007</oboInOwl:hasDbXref>
@@ -1823,7 +1527,6 @@
 
     <owl:Class rdf:about="&obo;DOID_12337">
         <rdfs:label rdf:datatype="&xsd;string">varicocele</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_48"/>
         <rdfs:subClassOf rdf:resource="&obo;DOID_9742"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:12337</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:456.4</oboInOwl:hasDbXref>
@@ -1839,47 +1542,6 @@
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Varicocele [Ambiguous]</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">varicocele</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_1242 -->
-
-    <owl:Class rdf:about="&obo;DOID_1242">
-        <rdfs:label rdf:datatype="&xsd;string">globe disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_1492"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:1242</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:360.29</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:194638007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0154780</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_1247 -->
-
-    <owl:Class rdf:about="&obo;DOID_1247">
-        <rdfs:label rdf:datatype="&xsd;string">blood coagulation disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_74"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:1247</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:13997</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:9474</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:286</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D001778</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C2902</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:127073005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:154815003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:191303002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267562007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:362970003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:64779008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0005779</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">postpartum coagulation defect</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">postpartum coagulation defect with delivery</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
     
@@ -1951,26 +1613,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_1285 -->
-
-    <owl:Class rdf:about="&obo;DOID_1285">
-        <rdfs:label rdf:datatype="&xsd;string">rectal disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_5295"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:1285</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D012002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:5964004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0034882</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_1287 -->
 
     <owl:Class rdf:about="&obo;DOID_1287">
         <rdfs:label rdf:datatype="&xsd;string">cardiovascular system disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_7"/>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000031"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A disease of anatomical entity which occurs in the blood, heart, blood vessels or the lymphatic system that passes nutrients (such as amino acids and electrolytes), gases, hormones, blood cells or lymph to and from cells in the body to help fight diseases and help stabilize body temperature and pH to maintain homeostasis.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:1287</oboInOwl:id>
         <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:73</oboInOwl:hasAlternativeId>
@@ -2000,7 +1647,7 @@
         <rdfs:label rdf:datatype="&xsd;string">thromboangiitis obliterans</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;DOID_2868"/>
         <rdfs:subClassOf rdf:resource="&obo;DOID_341"/>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Buerger&#39;s disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Buerger&apos;s disease</oboInOwl:hasExactSynonym>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:12918</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:443.1</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D013919</oboInOwl:hasDbXref>
@@ -2017,7 +1664,7 @@
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Thromboangiitis obliterans</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Thromboangiitis obliterans (disorder)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Thromboangiitis obliterans NOS (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Thromboangiitis obliterans [Buerger&#39;s disease]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Thromboangiitis obliterans [Buerger&apos;s disease]</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0040021</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
@@ -2051,7 +1698,6 @@
 
     <owl:Class rdf:about="&obo;DOID_12930">
         <rdfs:label rdf:datatype="&xsd;string">dilated cardiomyopathy</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_0050700"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An intrinsic cardiomyopathy that results in damage to the myocardium causing the heart to pump blood inefficiently.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Cardiomyopathy, congestive</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Congestive cardiomyopathy</oboInOwl:hasRelatedSynonym>
@@ -2105,9 +1751,9 @@
     <owl:Class rdf:about="&obo;DOID_12932">
         <rdfs:label rdf:datatype="&xsd;string">endomyocardial fibrosis</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;DOID_397"/>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">(Becker&#39;s disease) or (obscure African cardiomyopathy)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">(Becker&apos;s disease) or (obscure African cardiomyopathy)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">African endomyocardial fibrosis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Becker&#39;s disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Becker&apos;s disease</oboInOwl:hasExactSynonym>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:12932</oboInOwl:id>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Endomyocardial sclerosis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:425.0</oboInOwl:hasDbXref>
@@ -2192,28 +1838,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_13027 -->
-
-    <owl:Class rdf:about="&obo;DOID_13027">
-        <rdfs:label rdf:datatype="&xsd;string">transient global amnesia</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_10914"/>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_6713"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">An amnestic disorder that is characterized by temporary but almost total disruption of short-term memory with a range of problems accessing older memories.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:13027</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:437.7</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D020236</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C85198</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:195202003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:230736007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:366963000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:367187006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0338591</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_13042 -->
 
     <owl:Class rdf:about="&obo;DOID_13042">
@@ -2238,22 +1862,6 @@
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">congenital alveolar capillary dysplasia with misalignment of pulmonary veins</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">persistent pulmonary hypertension of the newborn</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_1307 -->
-
-    <owl:Class rdf:about="&obo;DOID_1307">
-        <rdfs:label rdf:datatype="&xsd;string">dementia</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_1561"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A cognitive disorder resulting from a loss of brain function affecting memory, thinking, language, judgement and behavior.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:1307</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:290.8</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D003704</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0154319</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
     
@@ -2425,7 +2033,6 @@
     <owl:Class rdf:about="&obo;DOID_13133">
         <rdfs:label rdf:datatype="&xsd;string">HELLP syndrome</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;DOID_13129"/>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_1588"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:13133</oboInOwl:id>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">HELLP syndrome (disorder)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D017359</oboInOwl:hasDbXref>
@@ -2475,7 +2082,7 @@
     <!-- http://purl.obolibrary.org/obo/DOID_13209 -->
 
     <owl:Class rdf:about="&obo;DOID_13209">
-        <rdfs:label rdf:datatype="&xsd;string">right bundle branch block</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">right bundle branch block (disease)</rdfs:label>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:13209</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:426.51</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Right bundle branch block with left posterior fascicular block (disorder)</oboInOwl:hasExactSynonym>
@@ -2490,13 +2097,12 @@
     <!-- http://purl.obolibrary.org/obo/DOID_13241 -->
 
     <owl:Class rdf:about="&obo;DOID_13241">
-        <rdfs:label rdf:datatype="&xsd;string">Behcet&#39;s disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_0060051"/>
+        <rdfs:label rdf:datatype="&xsd;string">Behcet&apos;s disease</rdfs:label>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Adamantiades-Behcet disease</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An autoimmune disease of cardiovascular system that causes chronic inflammation in blood vessels throughout the body leading to ulcerations on the mouth and sometimes the genitals, notorious for causing hypopyon uveitis.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Behcet syndrome</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Behcet&#39;s syndrome</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Behet&#39;s syndrome (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Behcet&apos;s syndrome</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Behet&apos;s syndrome (disorder)</oboInOwl:hasExactSynonym>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:13241</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:136.1</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D001528</oboInOwl:hasDbXref>
@@ -2514,20 +2120,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_13252 -->
-
-    <owl:Class rdf:about="&obo;DOID_13252">
-        <rdfs:label rdf:datatype="&xsd;string">mesenteric vascular occlusion</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_5295"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:13252</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D008641</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0025472</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_13375 -->
 
     <owl:Class rdf:about="&obo;DOID_13375">
@@ -2538,7 +2130,7 @@
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Giant cell arteritis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Giant cell arteritis (disorder)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Giant cell arteritis NOS (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Horton&#39;s disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Horton&apos;s disease</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:446.5</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D013700</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C35065</oboInOwl:hasDbXref>
@@ -2565,12 +2157,11 @@
 
     <owl:Class rdf:about="&obo;DOID_13378">
         <rdfs:label rdf:datatype="&xsd;string">Kawasaki disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_1602"/>
         <rdfs:subClassOf rdf:resource="&obo;DOID_9810"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:13378</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:446.1</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Kawasaki disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Kawasaki&#39;s disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Kawasaki&apos;s disease</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">MLNS</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D009080</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C34825</oboInOwl:hasDbXref>
@@ -2706,7 +2297,6 @@
 
     <owl:Class rdf:about="&obo;DOID_13834">
         <rdfs:label rdf:datatype="&xsd;string">rheumatic tricuspid valve disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_4079"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:13834</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:397.0</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">RH. tricuspid valve disease</oboInOwl:hasExactSynonym>
@@ -2729,7 +2319,6 @@
 
     <owl:Class rdf:about="&obo;DOID_13884">
         <rdfs:label rdf:datatype="&xsd;string">sick sinus syndrome</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_10273"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:13884</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D012804</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C62244</oboInOwl:hasDbXref>
@@ -2738,26 +2327,6 @@
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:36083008</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0037052</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_1393 -->
-
-    <owl:Class rdf:about="&obo;DOID_1393">
-        <rdfs:label rdf:datatype="&xsd;string">visual pathway disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_5614"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:1393</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C35342</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155191004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:194037001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267741008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267744000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:54767005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0155287</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">visual pathway disorder</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
     
@@ -2795,7 +2364,7 @@
 
     <owl:Class rdf:about="&obo;DOID_14006">
         <rdfs:label rdf:datatype="&xsd;string">splenic artery aneurysm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000226"/>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_2403"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:14006</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:442.83</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:70405009</oboInOwl:hasDbXref>
@@ -2849,7 +2418,6 @@
 
     <owl:Class rdf:about="&obo;DOID_14121">
         <rdfs:label rdf:datatype="&xsd;string">blue toe syndrome</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000267"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:14121</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D018438</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0242645</oboInOwl:hasDbXref>
@@ -2996,20 +2564,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_14566 -->
-
-    <owl:Class rdf:about="&obo;DOID_14566">
-        <rdfs:label rdf:datatype="&xsd;string">disease of cellular proliferation</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A disease that is characterized by abnormally rapid cell division.</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:0000818</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:14566</oboInOwl:id>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cell process disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_1460 -->
 
     <owl:Class rdf:about="&obo;DOID_1460">
@@ -3027,7 +2581,6 @@
 
     <owl:Class rdf:about="&obo;DOID_1461">
         <rdfs:label rdf:datatype="&xsd;string">cholesterol embolism</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000225"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:1461</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:445</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D017700</oboInOwl:hasDbXref>
@@ -3061,64 +2614,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_1492 -->
-
-    <owl:Class rdf:about="&obo;DOID_1492">
-        <rdfs:label rdf:datatype="&xsd;string">eye and adnexa disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_0050155"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:1492</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:362.10</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:193355009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:31411005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:42873008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0004608</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_15 -->
-
-    <owl:Class rdf:about="&obo;DOID_15">
-        <rdfs:label rdf:datatype="&xsd;string">reproductive system disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_7"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A disease of anatomical entity that is located_in reproductive system organs.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:15</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:6309</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C27613</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Non-neoplastic Reproductive system disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C1335037</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">genital system disease</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_150 -->
-
-    <owl:Class rdf:about="&obo;DOID_150">
-        <rdfs:label rdf:datatype="&xsd;string">disease of mental health</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A disease that involves a psychological or behavioral pattern generally associated with subjective distress or disability that occurs in an individual, and which are not a part of normal development or culture.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:150</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:290-319.99</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D001523</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C2893</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:154843007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:154971002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:154972009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:154980002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:192637001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:192639003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:74732009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0004936</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_1554 -->
 
     <owl:Class rdf:about="&obo;DOID_1554">
@@ -3139,7 +2634,6 @@
 
     <owl:Class rdf:about="&obo;DOID_1555">
         <rdfs:label rdf:datatype="&xsd;string">urticaria</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_2723"/>
         <rdfs:subClassOf rdf:resource="&obo;DOID_9540"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:1555</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:708.8</oboInOwl:hasDbXref>
@@ -3149,44 +2643,6 @@
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267817001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0029839</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_1556 -->
-
-    <owl:Class rdf:about="&obo;DOID_1556">
-        <rdfs:label rdf:datatype="&xsd;string">arthus reaction</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_1555"/>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_1557"/>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Arthus Phenomenon</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Arthus phenomenon</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Arthus reaction (function)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Arthus type urticaria</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:1556</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:995.21</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D001183</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C34400</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:29548007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:402413008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0003907</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_1557 -->
-
-    <owl:Class rdf:about="&obo;DOID_1557">
-        <rdfs:label rdf:datatype="&xsd;string">hypersensitivity reaction type III disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_0060056"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:1557</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D007105</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0020951</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">immune complex disease</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
     
@@ -3203,8 +2659,8 @@
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Giant urticaria</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Giant urticaria (disorder)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D000799</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">QUINCKE&#39;S EDEMA</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Quincke&#39;s edema</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">QUINCKE&apos;S EDEMA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Quincke&apos;s edema</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:157756002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:269433002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:400075008</oboInOwl:hasDbXref>
@@ -3215,72 +2671,6 @@
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">angioneurotic edema</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">giant urticaria</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_1561 -->
-
-    <owl:Class rdf:about="&obo;DOID_1561">
-        <rdfs:label rdf:datatype="&xsd;string">cognitive disorder</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_150"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A disease of mental health that affects cognitive functions including memory processing, perception and problem solving.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:1561</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D019965</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C34870</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Organic Mental disorder</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:106014008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:111479008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0029227</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cognitive disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_1579 -->
-
-    <owl:Class rdf:about="&obo;DOID_1579">
-        <rdfs:label rdf:datatype="&xsd;string">respiratory system disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_7"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A disease of anatomical entity that located_in the respiratory system which extends from the nasal sinuses to the diaphragm.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:1579</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:3226</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:510-519.99</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:519</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155603009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:196057004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:196184000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:196255004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:266373008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0029582</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_1588 -->
-
-    <owl:Class rdf:about="&obo;DOID_1588">
-        <rdfs:label rdf:datatype="&xsd;string">thrombocytopenia</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_2218"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:1588</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:287.5</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D013921</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C3408</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Platelet count below reference range</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:142969008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:154827000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:165556002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:191326009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:302215000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:415116008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:70786006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0040034</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
     
@@ -3304,61 +2694,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_16 -->
-
-    <owl:Class rdf:about="&obo;DOID_16">
-        <rdfs:label rdf:datatype="&xsd;string">integumentary system disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_7"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A disease of anatomical entity that is located_in the integumentary system  comprising the skin and its appendages.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:16</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_1602 -->
-
-    <owl:Class rdf:about="&obo;DOID_1602">
-        <rdfs:label rdf:datatype="&xsd;string">lymphadenitis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_9942"/>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Adenitis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:1600</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:1602</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:9941</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Inflammation of lymph node</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Lymphadenitis (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Lymphadenitis NOS</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Lymphadenitis NOS (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D008199</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C26821</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:154836001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:154838000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:156318008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:19471005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:200696002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:274737001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:287688007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:32035007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:41174002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0024205</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0154304</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0157705</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">acute Lymphadenitis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">acute adenitis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">acute lymphadenitis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">acute lymphadenitis (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">chronic Lymphadenitis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">chronic adenitis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">chronic lymphadenitis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">chronic lymphadenitis (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">chronic lymphadenitis any lymph node, except mesenteric</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_1637 -->
 
     <owl:Class rdf:about="&obo;DOID_1637">
@@ -3367,26 +2702,6 @@
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:1637</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C40381</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C1511284</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_17 -->
-
-    <owl:Class rdf:about="&obo;DOID_17">
-        <rdfs:label rdf:datatype="&xsd;string">musculoskeletal system disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_7"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A disease of anatomical entity that occurs in the muscular and/or skeletal system.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:17</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D009140</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:156881000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:268047003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:268142006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:274149006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:928000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0026857</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
@@ -3501,24 +2816,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_18 -->
-
-    <owl:Class rdf:about="&obo;DOID_18">
-        <rdfs:label rdf:datatype="&xsd;string">urinary system disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_7"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A disease of anatomical entity that is located_in kidney, ureter, bladder and urethra.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:18</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:579</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C27599</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Non-neoplastic urinary tract disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C1335051</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">urinary tract disease</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_1869 -->
 
     <owl:Class rdf:about="&obo;DOID_1869">
@@ -3539,36 +2836,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_1891 -->
-
-    <owl:Class rdf:about="&obo;DOID_1891">
-        <rdfs:label rdf:datatype="&xsd;string">optic nerve disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_1393"/>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_5656"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:1891</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D009901</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C79698</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:194037001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267741008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:312964007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:77157004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:82108004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0029132</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">disorder of optic nerve (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">disorder of the second nerve</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">optic nerve disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">optic neuropathy (disorder)</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_1929 -->
 
     <owl:Class rdf:about="&obo;DOID_1929">
         <rdfs:label rdf:datatype="&xsd;string">supravalvular aortic stenosis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_1712"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:1929</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D021921</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C85176</oboInOwl:hasDbXref>
@@ -3606,44 +2877,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_2213 -->
-
-    <owl:Class rdf:about="&obo;DOID_2213">
-        <rdfs:label rdf:datatype="&xsd;string">hemorrhagic disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_1247"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:2213</oboInOwl:id>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Hemorrhagic diathesis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Hemorrhagic disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:287.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D006474</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:191327000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:191331006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:191437009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:268884000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0019087</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_2218 -->
-
-    <owl:Class rdf:about="&obo;DOID_2218">
-        <rdfs:label rdf:datatype="&xsd;string">blood platelet disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_2213"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:2218</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D001791</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:22716005</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Thrombocytopathy</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0005818</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">platelet disorder</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_223 -->
 
     <owl:Class rdf:about="&obo;DOID_223">
@@ -3668,7 +2901,7 @@
 
     <owl:Class rdf:about="&obo;DOID_224">
         <rdfs:label rdf:datatype="&xsd;string">transient cerebral ischemia</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000267"/>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_2316"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:224</oboInOwl:id>
         <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:2315</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D002546</oboInOwl:hasDbXref>
@@ -3818,7 +3051,6 @@
 
     <owl:Class rdf:about="&obo;DOID_2388">
         <rdfs:label rdf:datatype="&xsd;string">renal vascular disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_557"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:2388</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:593.81</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C35338</oboInOwl:hasDbXref>
@@ -3836,7 +3068,7 @@
     <!-- http://purl.obolibrary.org/obo/DOID_2403 -->
 
     <owl:Class rdf:about="&obo;DOID_2403">
-        <rdfs:label rdf:datatype="&xsd;string">aneurysm disease</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">aneurysm (disease)</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A vascular disease that is characterized by a localized, blood-filled balloon-like bulge in the wall of a blood vessel.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:2403</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:442.9</oboInOwl:hasDbXref>
@@ -3856,32 +3088,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_2452 -->
-
-    <owl:Class rdf:about="&obo;DOID_2452">
-        <rdfs:label rdf:datatype="&xsd;string">thrombophilia</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_1247"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:2452</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D019851</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="&xsd;string">OMIM mapping confirmed by DO. [LS].</rdfs:comment>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">OMIM:188050</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:191302007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:234467004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:76612001</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Thrombophilia (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0398623</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hypercoagulability state (finding)</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_2462 -->
 
     <owl:Class rdf:about="&obo;DOID_2462">
         <rdfs:label rdf:datatype="&xsd;string">retinal vascular disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_5679"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:2462</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C35170</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:57534004</oboInOwl:hasDbXref>
@@ -3992,7 +3202,6 @@
 
     <owl:Class rdf:about="&obo;DOID_255">
         <rdfs:label rdf:datatype="&xsd;string">hemangioma</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_0060084"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:255</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:228.0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:228.00</oboInOwl:hasDbXref>
@@ -4056,7 +3265,6 @@
 
     <owl:Class rdf:about="&obo;DOID_272">
         <rdfs:label rdf:datatype="&xsd;string">hepatic vascular disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_409"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:272</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C35442</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:235878005</oboInOwl:hasDbXref>
@@ -4068,47 +3276,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_2723 -->
-
-    <owl:Class rdf:about="&obo;DOID_2723">
-        <rdfs:label rdf:datatype="&xsd;string">dermatitis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_37"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:2723</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:8614</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:8917</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Dermatitis (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Dermatitis (disorder) [Ambiguous]</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Dermatitis NOS</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Dermatitis NOS (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Dermatitis, NOS</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D003872</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C2983</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Other chronic dermatitis due to solar radiation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Other dermatitis due to solar radiation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:156358005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:156388001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:182782007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:200884006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:238538009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267847004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267856007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:43116000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:4979002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0011603</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">dermatitis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">skin inflammation NOS</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">skin inflammation NOS (disorder)</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_2868 -->
 
     <owl:Class rdf:about="&obo;DOID_2868">
         <rdfs:label rdf:datatype="&xsd;string">arterial occlusive disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_178"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Arterial occlusive disease</oboInOwl:hasExactSynonym>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:2868</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D001157</oboInOwl:hasDbXref>
@@ -4120,32 +3291,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_2914 -->
-
-    <owl:Class rdf:about="&obo;DOID_2914">
-        <rdfs:label rdf:datatype="&xsd;string">immune system disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_7"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A disease of anatomical entity that is located_in the immune system.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:2914</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:279</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:279.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:154782004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:191015009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:191019003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:191035005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0041806</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_2972 -->
 
     <owl:Class rdf:about="&obo;DOID_2972">
         <rdfs:label rdf:datatype="&xsd;string">renal artery obstruction</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;DOID_2868"/>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_557"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:2972</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D012078</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0035066</oboInOwl:hasDbXref>
@@ -4200,7 +3350,6 @@
 
     <owl:Class rdf:about="&obo;DOID_3103">
         <rdfs:label rdf:datatype="&xsd;string">thoracic outlet syndrome</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_573"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:3103</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D013901</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C85188</oboInOwl:hasDbXref>
@@ -4214,97 +3363,6 @@
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">TOS - Thoracic outlet syndrome</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0039984</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_3118 -->
-
-    <owl:Class rdf:about="&obo;DOID_3118">
-        <rdfs:label rdf:datatype="&xsd;string">hepatobiliary disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_77"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:3118</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C3959</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0267792</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">liver and biliary tract disease</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_3128 -->
-
-    <owl:Class rdf:about="&obo;DOID_3128">
-        <rdfs:label rdf:datatype="&xsd;string">anus disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_1285"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:11479</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:11993</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:3128</oboInOwl:id>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Fissure-in-ano</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D001004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C26695</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Nontraumatic tear of anus</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:32110003</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Solitary anal ulcer (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0003462</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Ulcer of anus (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">anal disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">anal disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">anal fissure</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">anal fissure (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">anal fissure and fistula</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">anal fissure and fistula (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">anal fissure and fistula NOS (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">anal ulcer unspecified (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">disorder of anus (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">fissure in ano</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_3165 -->
-
-    <owl:Class rdf:about="&obo;DOID_3165">
-        <rdfs:label rdf:datatype="&xsd;string">skin benign  neoplasm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_0060121"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:3165</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D012878</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C3372</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:126488004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:363230005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0037286</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">neoplasm of skin (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">neoplasm of skin by site</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">skin neoplasm</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">tumor of the skin</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_319 -->
-
-    <owl:Class rdf:about="&obo;DOID_319">
-        <rdfs:label rdf:datatype="&xsd;string">spinal cord disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_331"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:319</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:336.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D013118</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155020007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:192908002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:192913003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267587000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267695005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:48522003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:95648003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0037928</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">myelopathy</oboInOwl:hasRelatedSynonym>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
     
@@ -4330,7 +3388,6 @@
 
     <owl:Class rdf:about="&obo;DOID_325">
         <rdfs:label rdf:datatype="&xsd;string">spinal cord vascular disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_319"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:325</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D020758</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0752127</oboInOwl:hasDbXref>
@@ -4344,7 +3401,6 @@
 
     <owl:Class rdf:about="&obo;DOID_326">
         <rdfs:label rdf:datatype="&xsd;string">ischemia</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000216"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:326</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D007511</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C34738</oboInOwl:hasDbXref>
@@ -4357,40 +3413,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_331 -->
-
-    <owl:Class rdf:about="&obo;DOID_331">
-        <rdfs:label rdf:datatype="&xsd;string">central nervous system disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_863"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A nervous system disease that affects either the spinal cord (myelopathy) or brain (encephalopathy) of the central nervous system.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:331</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D002493</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C2934</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:138748005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:154981003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155049004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155059003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:192641002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:193076009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:194566008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:23853001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267144009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267679005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267700003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267702006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:275539005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0007682</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_3362 -->
 
     <owl:Class rdf:about="&obo;DOID_3362">
         <rdfs:label rdf:datatype="&xsd;string">coronary aneurysm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000226"/>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_2403"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Aneurysm of coronary vessels</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Aneurysmal lesion of coronary artery</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Arteriovenous aneurysm of coronary vessels</oboInOwl:hasExactSynonym>
@@ -4543,7 +3570,7 @@
 
     <owl:Class rdf:about="&obo;DOID_342">
         <rdfs:label rdf:datatype="&xsd;string">subclavian artery aneurysm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000226"/>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_2403"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:342</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:442.82</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:40136003</oboInOwl:hasDbXref>
@@ -4571,7 +3598,6 @@
 
     <owl:Class rdf:about="&obo;DOID_3455">
         <rdfs:label rdf:datatype="&xsd;string">cerebrovascular accident</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000216"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">CVA (cerebral vascular accident)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">CVA - Cerebrovascular accident unspecified</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Cerebrovascular accident (disorder)</oboInOwl:hasExactSynonym>
@@ -4726,7 +3752,6 @@
 
     <owl:Class rdf:about="&obo;DOID_3574">
         <rdfs:label rdf:datatype="&xsd;string">lateral sinus thrombosis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_3572"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:3574</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D020227</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:192761004</oboInOwl:hasDbXref>
@@ -4778,7 +3803,7 @@
 
     <owl:Class rdf:about="&obo;DOID_3627">
         <rdfs:label rdf:datatype="&xsd;string">aortic aneurysm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000226"/>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_2403"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:3627</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D001014</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C26697</oboInOwl:hasDbXref>
@@ -4797,8 +3822,7 @@
 
     <owl:Class rdf:about="&obo;DOID_3669">
         <rdfs:label rdf:datatype="&xsd;string">intermittent claudication</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000267"/>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Charcot&#39;s syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Charcot&apos;s syndrome</oboInOwl:hasExactSynonym>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:3669</oboInOwl:id>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Intermittent claudication</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Intermittent claudication (disorder)</oboInOwl:hasExactSynonym>
@@ -4809,57 +3833,6 @@
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:63491006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0021775</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_37 -->
-
-    <owl:Class rdf:about="&obo;DOID_37">
-        <rdfs:label rdf:datatype="&xsd;string">skin disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_16"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">An integumentary system disease that is located_in skin.</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:1576</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:1698</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:187</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:37</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:6486</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:8948</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Dermatitis due to Unspecified Substance taken Internally</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Dermatitis due to substances taken internally</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Dermatitis due to substances taken internally (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Dermatitis due to unspecified substance taken internally</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Dermatitis due to unspecified substance taken internally (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Genodermatosis (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Genodermatosis, NOS</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:702</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D012871</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D012873</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C27554</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C3371</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:156292006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:156396006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:156400006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:156445005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:199879009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:200580005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:201095006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:201107006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:239001006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267806002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267859000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267860005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267873009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:5613003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:80659006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:95320005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0029574</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0037274</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0037277</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">genetic skin disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">skin and subcutaneous tissue disease</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
     
@@ -5071,8 +4044,6 @@
 
     <owl:Class rdf:about="&obo;DOID_4079">
         <rdfs:label rdf:datatype="&xsd;string">heart valve disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_114"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A heart disease involving one or more of the valves of the heart (the aortic and mitral valves on the left and the pulmonary and tricuspid valves on the right).</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:4079</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D006349</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C45525</oboInOwl:hasDbXref>
@@ -5081,6 +4052,7 @@
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0018824</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Valvular heart disease (disorder)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 xml:lang="en">Heart valve disease is a heart disease described as any disease process involving one or more of the valves of the heart (the aortic and mitral valves on the left and the pulmonary and tricuspid valves on the right). Valve problems may be congenital (inborn) or acquired (due to another cause later in life).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
     
@@ -5090,7 +4062,7 @@
 
     <owl:Class rdf:about="&obo;DOID_4080">
         <rdfs:label rdf:datatype="&xsd;string">tricuspid valve insufficiency</rdfs:label>
-        <obo:CVDO_0000174 rdf:datatype="&xsd;string">A heart valve disease where the heart&#39;s tricuspid valve fails to close properly during systole. As a result, with each heart beat, blood is pumped out from the right side of the heart in the opposite direction to normal.</obo:CVDO_0000174>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A heart valve disease where the heart&apos;s tricuspid valve fails to close properly during systole. As a result, with each heart beat, blood is pumped out from the right side of the heart in the opposite direction to normal.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:4080</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D014262</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C50842</oboInOwl:hasDbXref>
@@ -5109,69 +4081,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_409 -->
-
-    <owl:Class rdf:about="&obo;DOID_409">
-        <rdfs:label rdf:datatype="&xsd;string">liver disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_3118"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:2164</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:2165</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:409</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:46</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:573.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Liver disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Liver disorder NOS</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Liver disorder NOS (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Liver disorder in pregnancy</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Liver disorder in pregnancy (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Liver disorder in pregnancy - delivered (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Liver disorder in pregnancy NOS (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Liver disorder in pregnancy unspecified (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Liver disorder in pregnancy, unspecified as to episode of care</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Liver disorder in pregnancy, with delivery</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D008107</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C3196</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155807008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155817003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155822003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:197375001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:197551000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:235856003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:266535008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:62857009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0023895</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Unspecified disorder of liver</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">disease of liver [Ambiguous]</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">disease of the liver (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">disorder of liver (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hepatic disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">liver disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">liver disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">liver disorder antepartum</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">liver disorder in pregnancy - delivered</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_417 -->
-
-    <owl:Class rdf:about="&obo;DOID_417">
-        <rdfs:label rdf:datatype="&xsd;string">hypersensitivity reaction type II disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_0060056"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">An immune system disease that is an overactive immune response of the body against substances and tissues normally present in the body resulting from an abnormal functioning of the immune system that results in the production of antibodies or T cell directed against the host tissues.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:417</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:720</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D001327</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0003089</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">autoimmune disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_4193 -->
 
     <owl:Class rdf:about="&obo;DOID_4193">
@@ -5184,32 +4093,6 @@
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0079102</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0752143</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cerebral thrombosis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_423 -->
-
-    <owl:Class rdf:about="&obo;DOID_423">
-        <rdfs:label rdf:datatype="&xsd;string">myopathy</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_66"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A muscular disease in which the muscle fibers do not function resulting in muscular weakness.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:423</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:359.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D009135</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:129565002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155094005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155099000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:203833006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:203845002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267711006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267714003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:268103006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:52794005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:75047002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0026848</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
@@ -5295,7 +4178,6 @@
 
     <owl:Class rdf:about="&obo;DOID_471">
         <rdfs:label rdf:datatype="&xsd;string">skin hemangioma</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_3165"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Angioma of the skin</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Angiomatous naevus of skin</oboInOwl:hasExactSynonym>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:471</oboInOwl:id>
@@ -5307,28 +4189,6 @@
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hemangioma of skin (disorder)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">skin hemangioma</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_48 -->
-
-    <owl:Class rdf:about="&obo;DOID_48">
-        <rdfs:label rdf:datatype="&xsd;string">male reproductive system disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_15"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:48</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:600-608.99</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:608.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D005832</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155905004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155933004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155945008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:198089001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:198553004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:64557000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0017412</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
     
@@ -5363,7 +4223,6 @@
 
     <owl:Class rdf:about="&obo;DOID_484">
         <rdfs:label rdf:datatype="&xsd;string">vascular hemostatic disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_2213"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:484</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D020141</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:21112004</oboInOwl:hasDbXref>
@@ -5443,7 +4302,6 @@
 
     <owl:Class rdf:about="&obo;DOID_520">
         <rdfs:label rdf:datatype="&xsd;string">aortic disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_178"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:520</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D001018</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:47040006</oboInOwl:hasDbXref>
@@ -5473,43 +4331,12 @@
 
     <owl:Class rdf:about="&obo;DOID_525">
         <rdfs:label rdf:datatype="&xsd;string">central nervous system vasculitis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_865"/>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000031"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:525</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D020293</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C84622</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0751878</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_5295 -->
-
-    <owl:Class rdf:about="&obo;DOID_5295">
-        <rdfs:label rdf:datatype="&xsd;string">intestinal disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_77"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:10759</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:11222</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:11789</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:5295</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:8531</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:8558</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:8591</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:569.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Ischemic Bowel disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D007410</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C26801</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155629009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:197266001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:266483008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:85919009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0021831</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">angiodysplasia of intestine with hemorrhage</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">diverticula of intestine</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">intestinal ISCHEMIA</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">vascular insufficiency of intestine</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
     
@@ -5535,7 +4362,7 @@
         <rdfs:label rdf:datatype="&xsd;string">aortic incompetence</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;DOID_57"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Aortic incompetence is a aortic valve disease where leakage of blood from the aorta back into the left ventricle during diastole because of failure of an aortic valve to close properly.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Corrigan&#39;s disease</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Corrigan&apos;s disease</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:54</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:396.3</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:194736003</oboInOwl:hasDbXref>
@@ -5551,7 +4378,6 @@
 
     <owl:Class rdf:about="&obo;DOID_5453">
         <rdfs:label rdf:datatype="&xsd;string">pulmonary venoocclusive disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_850"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:5453</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D011668</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C85039</oboInOwl:hasDbXref>
@@ -5586,61 +4412,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_557 -->
-
-    <owl:Class rdf:about="&obo;DOID_557">
-        <rdfs:label rdf:datatype="&xsd;string">kidney disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_18"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:557</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D007674</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C3149</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C34843</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155871008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:266612003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:266624005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:266627003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:274108006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:90708001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0022658</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_5614 -->
-
-    <owl:Class rdf:about="&obo;DOID_5614">
-        <rdfs:label rdf:datatype="&xsd;string">eye disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_1242"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:2933</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:5614</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:360</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:360.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:379.90</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D005128</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C26767</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:111509007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155101007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155198005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:193265001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:193266000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:193316008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:194183009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:264555006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:366261005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:371405004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:371409005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:79517001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0015397</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">eye infection</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">eye infection (disorder)</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_5644 -->
 
     <owl:Class rdf:about="&obo;DOID_5644">
@@ -5651,54 +4422,6 @@
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Tricuspid valve prolapse (disorder)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0040962</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_5656 -->
-
-    <owl:Class rdf:about="&obo;DOID_5656">
-        <rdfs:label rdf:datatype="&xsd;string">cranial nerve disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_870"/>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Cranial nerve disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:5656</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:352.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D003389</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C26733</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:193104009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267598004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267709002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:276379008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:73013002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0010266</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">disorder of cranial nerve</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_5679 -->
-
-    <owl:Class rdf:about="&obo;DOID_5679">
-        <rdfs:label rdf:datatype="&xsd;string">retinal disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_5614"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:5679</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:362.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D012164</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C26875</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C62601</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Retinal disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Retinopathy (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:193430004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267715002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:29555009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:35426003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:399625000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0035309</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">retina disorder</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
     
@@ -5719,58 +4442,6 @@
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">aortic insufficiency </oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">aortic regurgitation</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_573 -->
-
-    <owl:Class rdf:about="&obo;DOID_573">
-        <rdfs:label rdf:datatype="&xsd;string">nerve compression syndrome</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_574"/>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Compression neuropathy</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:573</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:7318</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Entrapment Neuropathy</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D009408</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155085004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:45781009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0027743</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C1510429</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">entrapment neuropathy</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">peripheral nerve entrapment syndrome</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_574 -->
-
-    <owl:Class rdf:about="&obo;DOID_574">
-        <rdfs:label rdf:datatype="&xsd;string">peripheral nervous system disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_863"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:13069</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:574</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:350-359.99</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D010523</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C27580</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C4731</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155064004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155080009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155100008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:193088006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:193264002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:264554005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267706009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:302226006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:42658009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0031117</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C1335029</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">peripheral nerve disease</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">peripheral neuropathy</oboInOwl:hasRelatedSynonym>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
     
@@ -5854,7 +4525,6 @@
 
     <owl:Class rdf:about="&obo;DOID_5805">
         <rdfs:label rdf:datatype="&xsd;string">subvalvular aortic stenosis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_1712"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:5805</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D001020</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C85172</oboInOwl:hasDbXref>
@@ -6102,7 +4772,6 @@
 
     <owl:Class rdf:about="&obo;DOID_6000">
         <rdfs:label rdf:datatype="&xsd;string">congestive heart failure</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_114"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A heart disease that is characterized by any structural or functional cardiacdisorder that impairs the ability of the heart to fill with or pump a sufficient amount ofblood throughout the body.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">CHF</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Cardiac Failure Congestive</oboInOwl:hasExactSynonym>
@@ -6170,6 +4839,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_630 -->
+
+    <owl:Class rdf:about="&obo;DOID_630">
+        <rdfs:label rdf:datatype="&xsd;string">genetic disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000031"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A disease that has_material_basis_in genetic variations in the human genome.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">DOID:630</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D030342</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C3101</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:264530000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:32895009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0019247</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_6420 -->
 
     <owl:Class rdf:about="&obo;DOID_6420">
@@ -6204,44 +4891,6 @@
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">pulmonary hypertension</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">pulmonary hypertension (disorder)</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_65 -->
-
-    <owl:Class rdf:about="&obo;DOID_65">
-        <rdfs:label rdf:datatype="&xsd;string">connective tissue disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_17"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A tissue disease that affects tissues such as skin, tendons, and cartilage.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Connective tissue dis.</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Connective tissue disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Connective tissue disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:65</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D003240</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C26729</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Other musculoskelet/connectiv</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:105969002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:201432001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:268048008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:268126004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0009782</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">connective tissue disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">disorder of connective tissue (disorder)</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_66 -->
-
-    <owl:Class rdf:about="&obo;DOID_66">
-        <rdfs:label rdf:datatype="&xsd;string">muscle tissue disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_0080000"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:66</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
     
@@ -6282,7 +4931,6 @@
 
     <owl:Class rdf:about="&obo;DOID_6713">
         <rdfs:label rdf:datatype="&xsd;string">cerebrovascular disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_936"/>
         <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:12214</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:6713</oboInOwl:id>
         <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:8231</oboInOwl:hasAlternativeId>
@@ -6304,29 +4952,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_679 -->
-
-    <owl:Class rdf:about="&obo;DOID_679">
-        <rdfs:label rdf:datatype="&xsd;string">basal ganglia disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_936"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:679</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D001480</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:70835005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0004782</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">basal ganglia disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">disorder of basal ganglia (disorder)</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_682 -->
 
     <owl:Class rdf:about="&obo;DOID_682">
         <rdfs:label rdf:datatype="&xsd;string">compartment syndrome</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000231"/>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_423"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Compartment syndrome</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Compartment syndrome (disorder)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Compartmental syndrome, NOS</oboInOwl:hasExactSynonym>
@@ -6337,54 +4966,6 @@
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:212379008</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:45781009</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0009492</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_7 -->
-
-    <owl:Class rdf:about="&obo;DOID_7">
-        <rdfs:label rdf:datatype="&xsd;string">disease of anatomical entity</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A disease that manifests in a defined anatomical structure.</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:1</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:2</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:5</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:7</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:71</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:72</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:8</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_74 -->
-
-    <owl:Class rdf:about="&obo;DOID_74">
-        <rdfs:label rdf:datatype="&xsd;string">hematopoietic system disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_2914"/>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Blood disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Blood dyscrasia NOS</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">DISEASE OF THE BLOOD AND BLOOD-FORMING ORGANS</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:74</oboInOwl:id>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Hematological disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:280-289.99</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:289.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D006402</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:154785002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:154842002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:191124002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:191402006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:191446003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267552000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267573000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:34093004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0018939</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">blood disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">disease of hematopoietic system</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
@@ -6413,39 +4994,6 @@
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:7632005</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0343065</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_75 -->
-
-    <owl:Class rdf:about="&obo;DOID_75">
-        <rdfs:label rdf:datatype="&xsd;string">lymphatic system disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_2914"/>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Adenopathy</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:75</oboInOwl:id>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Lymphangiopathy, NOS</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Lymphatic disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Lymphatic disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D008206</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C3206</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:111590001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:141342003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155452000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:234087005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:266326002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:269044004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:3305006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:362971004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0024228</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">disease of lympoid system</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">disorder of lymph node and lymphatics (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">disorder of lymphatic system</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">disorder of lymphoid system</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">lymphatic disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">lympoid system disease</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
     
@@ -6481,7 +5029,7 @@
 
     <owl:Class rdf:about="&obo;DOID_7683">
         <rdfs:label rdf:datatype="&xsd;string">dissecting aortic aneurysm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000226"/>
+        <rdfs:subClassOf rdf:resource="&obo;DOID_2403"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:7683</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:441.0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C26751</oboInOwl:hasDbXref>
@@ -6536,36 +5084,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_77 -->
-
-    <owl:Class rdf:about="&obo;DOID_77">
-        <rdfs:label rdf:datatype="&xsd;string">gastrointestinal system disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_7"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A disease of anatomical entity that is located_in the gastrointestinal tract.</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:27</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:77</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:944</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">GIT disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Gastroenteropathy</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:520-579.99</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D004066</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C2990</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155629009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155847001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:197575000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:266483008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:53619000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0012242</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">alimentary system disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">digestive system disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">gastrointestinal disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">gastrointestinal disorder</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_7703 -->
 
     <owl:Class rdf:about="&obo;DOID_7703">
@@ -6591,7 +5109,6 @@
 
     <owl:Class rdf:about="&obo;DOID_799">
         <rdfs:label rdf:datatype="&xsd;string">varicose veins</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000214"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:799</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D014648</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C35114</oboInOwl:hasDbXref>
@@ -6635,31 +5152,12 @@
 
     <owl:Class rdf:about="&obo;DOID_817">
         <rdfs:label rdf:datatype="&xsd;string">interstitial myocarditis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_819"/>
         <rdfs:subClassOf rdf:resource="&obo;DOID_820"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:817</oboInOwl:id>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Interstitial myocarditis (disorder)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C35786</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:37925008</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0027060</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_819 -->
-
-    <owl:Class rdf:about="&obo;DOID_819">
-        <rdfs:label rdf:datatype="&xsd;string">mediastinitis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_65"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:819</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:519.2</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D008480</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Mediastinitis (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C26827</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:47597000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0025064</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
@@ -6768,40 +5266,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_850 -->
-
-    <owl:Class rdf:about="&obo;DOID_850">
-        <rdfs:label rdf:datatype="&xsd;string">lung disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_0050161"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A lower respiratory tract disease in which the function of the lungs is adversely affected by narrowing or blockage of the airways resulting in poor air flow, a loss of elasticity in the lungs that produces a decrease in the total volume of air that the lungs are able to hold, and clotting, scarring, or inflammation of the blood vessels that affect the ability of the lungs to take up oxygen and to release carbon dioxide.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Amebic lung abscess</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Amebic lung abscess (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:11894</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:11895</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:29</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:766</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:850</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:513.0</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D008169</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D008171</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Non-neoplastic pulmonary disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155618005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:196113000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:73452002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0024110</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">abscess of lung</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">abscess of lung (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">abscess of lung NOS (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">amebic abscess of lung</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">lung abscess</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">lung disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">non-neoplastic lung disorder</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_8512 -->
 
     <owl:Class rdf:about="&obo;DOID_8512">
@@ -6827,7 +5291,6 @@
 
     <owl:Class rdf:about="&obo;DOID_8514">
         <rdfs:label rdf:datatype="&xsd;string">acute pulmonary heart disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_8515"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:8514</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:415</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155324005</oboInOwl:hasDbXref>
@@ -6870,7 +5333,6 @@
 
     <owl:Class rdf:about="&obo;DOID_8516">
         <rdfs:label rdf:datatype="&xsd;string">pulmonary embolism and infarction</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000216"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:8516</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:415.1</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0034066</oboInOwl:hasDbXref>
@@ -6884,7 +5346,6 @@
 
     <owl:Class rdf:about="&obo;DOID_8517">
         <rdfs:label rdf:datatype="&xsd;string">acute cor pulmonale</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_8514"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:8517</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:415.0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155325006</oboInOwl:hasDbXref>
@@ -6892,29 +5353,6 @@
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:49584005</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0155672</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">acute cor pulmonale (disorder)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_863 -->
-
-    <owl:Class rdf:about="&obo;DOID_863">
-        <rdfs:label rdf:datatype="&xsd;string">nervous system disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_7"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A disease of anatomical entity that is located_in the central nervous system or located_in the peripheral nervous system.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:863</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:349.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D009422</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C26835</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:118940003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:154981003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155262005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:192641002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:267679005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:286946008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0027765</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
@@ -6974,33 +5412,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_870 -->
-
-    <owl:Class rdf:about="&obo;DOID_870">
-        <rdfs:label rdf:datatype="&xsd;string">neuropathy</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_863"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A nervous system disease that is located_in nerves or nerve cells.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:870</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C4731</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:193167000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:264554005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:277317008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:277878001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:386033004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:42658009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0442874</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_8725 -->
 
     <owl:Class rdf:about="&obo;DOID_8725">
         <rdfs:label rdf:datatype="&xsd;string">vascular dementia</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_1307"/>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_13097"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A dementia that involves impairments in cognitive function caused by problems in blood vessels that feed the brain.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:13915</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:8725</oboInOwl:id>
@@ -7027,7 +5442,7 @@
     <!-- http://purl.obolibrary.org/obo/DOID_8805 -->
 
     <owl:Class rdf:about="&obo;DOID_8805">
-        <rdfs:label rdf:datatype="&xsd;string">intermediate coronary syndrome</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">acute coronary syndrome</rdfs:label>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">(Angina: [crescendo] or [unstable] or [at rest]) or (preinfarction syndrome) or (impending infarction)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Angina at rest</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Anginal chest pain at rest</oboInOwl:hasExactSynonym>
@@ -7063,8 +5478,7 @@
     <!-- http://purl.obolibrary.org/obo/DOID_8861 -->
 
     <owl:Class rdf:about="&obo;DOID_8861">
-        <rdfs:label rdf:datatype="&xsd;string">pulmonary subvalvular stenosis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_6420"/>
+        <rdfs:label rdf:datatype="&xsd;string">subvalvular pulmonary stenosis</rdfs:label>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Congenital Infundibular Stenosis</oboInOwl:hasExactSynonym>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:8861</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:746.83</oboInOwl:hasDbXref>
@@ -7158,27 +5572,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_936 -->
-
-    <owl:Class rdf:about="&obo;DOID_936">
-        <rdfs:label rdf:datatype="&xsd;string">brain disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_331"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">DOID:8510</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:936</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D001927</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155053002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:193051008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:76011009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:81308009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0006111</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0085584</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">encephalopathy</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_9407 -->
 
     <owl:Class rdf:about="&obo;DOID_9407">
@@ -7219,7 +5612,6 @@
 
     <owl:Class rdf:about="&obo;DOID_9428">
         <rdfs:label rdf:datatype="&xsd;string">intracranial hypertension</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_936"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:9428</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D019586</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C84791</oboInOwl:hasDbXref>
@@ -7239,7 +5631,6 @@
 
     <owl:Class rdf:about="&obo;DOID_9477">
         <rdfs:label rdf:datatype="&xsd;string">pulmonary embolism</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000225"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:9477</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D011655</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C50713</oboInOwl:hasDbXref>
@@ -7259,7 +5650,6 @@
 
     <owl:Class rdf:about="&obo;DOID_9540">
         <rdfs:label rdf:datatype="&xsd;string">vascular skin disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_37"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:9540</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:709.1</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D017445</oboInOwl:hasDbXref>
@@ -7348,7 +5738,6 @@
 
     <owl:Class rdf:about="&obo;DOID_9746">
         <rdfs:label rdf:datatype="&xsd;string">hemorrhoid</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_3128"/>
         <rdfs:subClassOf rdf:resource="&obo;DOID_9742"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:9746</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:455</oboInOwl:hasDbXref>
@@ -7398,7 +5787,6 @@
 
     <owl:Class rdf:about="&obo;DOID_9768">
         <rdfs:label rdf:datatype="&xsd;string">heart aneurysm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CVDO_0000015"/>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:9768</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D006322</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:155317009</oboInOwl:hasDbXref>
@@ -7494,27 +5882,12 @@
     <!-- http://purl.obolibrary.org/obo/DOID_9892 -->
 
     <owl:Class rdf:about="&obo;DOID_9892">
-        <rdfs:label rdf:datatype="&xsd;string">Marable&#39;s syndrome</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">Marable&apos;s syndrome</rdfs:label>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Celiac artery compression syndrome</oboInOwl:hasExactSynonym>
         <oboInOwl:id rdf:datatype="&xsd;string">DOID:9892</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ICD9CM:447.4</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:9250002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0152098</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_9942 -->
-
-    <owl:Class rdf:about="&obo;DOID_9942">
-        <rdfs:label rdf:datatype="&xsd;string">lymph node disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DOID_75"/>
-        <oboInOwl:id rdf:datatype="&xsd;string">DOID:9942</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NCI:C35346</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_2010_1_31:76616003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS_CUI:C0272394</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">disease_ontology</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;doid.owl"/>
     </owl:Class>
@@ -7539,24 +5912,12 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/FMA_3734 -->
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000031 -->
 
-    <owl:Class rdf:about="&obo;FMA_3734"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OGMS_0000061 -->
-
-    <owl:Class rdf:about="&obo;OGMS_0000061"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OGMS_0000063 -->
-
-    <owl:Class rdf:about="&obo;OGMS_0000063"/>
+    <owl:Class rdf:about="&obo;OGMS_0000031"/>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
 
