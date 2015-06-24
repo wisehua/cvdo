@@ -1,0 +1,3 @@
+The Cardiovascular Disease Ontology (CVDO) is designed to describe entities related to cardiovascular diseases (including the diseases themselves, the underlying disorders, and the related pathological processes). CVDO incorporates terms from the OBO Foundry (a network of interoperable ontologies); in particular, it is based on OGMS' model of disease, and uses the Basic Formal Ontology (BFO) as an upper-level ontology. CVDO is so far available in OWL format.
+
+For more information, contact adrien.barton@gmail.com.
